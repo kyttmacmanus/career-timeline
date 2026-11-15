@@ -35,7 +35,7 @@ Push this site's contents to the repository's `main` branch. In Settings → Pag
 
 Workflow references: [GitHub Pages custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) and [the official Python setup action](https://github.com/actions/setup-python).
 
-Publishing requires working GitHub authentication. No repository has been created or pushed by preparing this directory.
+Review the website at [kyttmacmanus.github.io/career-timeline](https://kyttmacmanus.github.io/career-timeline/). The source repository is [kyttmacmanus/career-timeline](https://github.com/kyttmacmanus/career-timeline). GitHub Actions publishes updates pushed to `main`.
 
 ## Provenance and scope
 
