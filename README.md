@@ -13,7 +13,7 @@ python tools/build_site.py
 python -m http.server 8768 --bind 127.0.0.1
 ```
 
-Open `http://127.0.0.1:8768/`. Opening `index.html` directly also works. Search, year/theme filters, selected/all views, chronological sorting, source panels, and milestone permalinks run in the browser. The complete included timeline is readable when JavaScript is disabled.
+Open `http://127.0.0.1:8768/`. Opening `index.html` directly also works. The timeline starts with the most recent achievements, including when JavaScript is disabled. Search, year/theme filters, selected/all/media views, an optional oldest-first order, source panels, and milestone permalinks run in the browser.
 
 ## Edit a milestone
 

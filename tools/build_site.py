@@ -127,7 +127,7 @@ def main():
     args = parser.parse_args()
     data = json.loads(CONTENT.read_text(encoding="utf-8"))
     summary = validate(data)
-    data["milestones"].sort(key=sort_key)
+    data["milestones"].sort(key=sort_key, reverse=True)
     # JSON is data, not executable text. Escape closing script-like sequences.
     payload = json.dumps(data, ensure_ascii=False, indent=2).replace("</", "<\\/")
     (ROOT / "assets/milestones.js").write_text("window.CAREER_DATA = " + payload + ";\n", encoding="utf-8")

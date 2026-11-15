@@ -58,7 +58,7 @@
       theme: themes.includes(params.get('theme')) ? params.get('theme') : 'all',
       year: years.includes(params.get('year')) ? params.get('year') : 'all',
       view: ['featured','all','media'].includes(params.get('view')) ? params.get('view') : defaultView,
-      sort: params.get('sort') === 'newest' ? 'newest' : 'oldest'
+      sort: params.get('sort') === 'oldest' ? 'oldest' : 'newest'
     };
   }
   function updateUrl() {
@@ -68,7 +68,7 @@
     if (state.theme !== 'all') url.searchParams.set('theme',state.theme);
     if (state.year !== 'all') url.searchParams.set('year',state.year);
     if (state.view !== defaultView) url.searchParams.set('view',state.view);
-    if (state.sort !== 'oldest') url.searchParams.set('sort',state.sort);
+    if (state.sort !== 'newest') url.searchParams.set('sort',state.sort);
     history.replaceState(null,'',url);
   }
   function safeUrl(value) {
@@ -146,7 +146,7 @@
     }
   }
   function reset(full = false) {
-    state = {q:'',theme:'all',year:'all',view:full ? 'all' : defaultView,sort:'oldest'};
+    state = {q:'',theme:'all',year:'all',view:full ? 'all' : defaultView,sort:'newest'};
     render();
   }
   const imageDialog = document.createElement('dialog');

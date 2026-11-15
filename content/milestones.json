@@ -567,6 +567,81 @@
       ]
     },
     {
+      "id": "pes-performance-improvement-2016",
+      "date": "2016",
+      "datePrecision": "year",
+      "dateLabel": "2016",
+      "title": "Made SEDAC's population queries faster",
+      "summary": "Migrated SEDAC's Population Estimation Service to higher-performance servers and streamlined its processing, making population estimates faster for connected mapping applications.",
+      "role": "Improved the service's backend processing and server deployment with the CIESIN technology team.",
+      "themes": [
+        "Population & data",
+        "Open science"
+      ],
+      "type": "Software improvement",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "NASA Hazards and Population Mapper · service and version history",
+          "url": "https://apps.apple.com/us/app/hazards-and-population-mapper/id1092168898"
+        }
+      ]
+    },
+    {
+      "id": "gpw4-production-release-2016",
+      "date": "2016-07-11",
+      "datePrecision": "day",
+      "dateLabel": "July 11, 2016",
+      "title": "Led the production release of Gridded Population of the World v4",
+      "summary": "Led CIESIN's production release of GPWv4, turning detailed census counts and boundaries into open global population grids for research and planning.",
+      "role": "Led the GPWv4 production team, supervising data-preparation work and developing geoprocessing workflows with CIESIN colleagues.",
+      "themes": [
+        "Population & data",
+        "Open science",
+        "Leadership"
+      ],
+      "type": "Data release",
+      "status": "completed",
+      "featured": true,
+      "sources": [
+        {
+          "title": "GPWv4 Population Count · NASA dataset",
+          "url": "https://doi.org/10.7927/H4X63JVC"
+        },
+        {
+          "title": "NASA collection record and release date",
+          "url": "https://cmr.earthdata.nasa.gov/search/collections.umm_json?short_name=CIESIN_SEDAC_GPWv4_POPCOUNT&version=4.0"
+        }
+      ]
+    },
+    {
+      "id": "gfgs-task-force-2017",
+      "date": "2017",
+      "datePrecision": "year",
+      "dateLabel": "By 2017",
+      "title": "Helped build the Global Forum for Geography and Statistics",
+      "summary": "Contributed to the international task force connecting statistical offices, mapping agencies and research institutions through the Global Forum for Geography and Statistics.",
+      "role": "CIESIN representative on the GFGS task force and steering group.",
+      "themes": [
+        "Leadership",
+        "Population & data"
+      ],
+      "type": "Professional service",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "Global Forum for Geography and Statistics",
+          "url": "https://www.efgs.info/about-efgs/global-forum-for-geography-and-statistics/"
+        },
+        {
+          "title": "GFGS steering-group record · November 2017",
+          "url": "https://www.efgs.info/wp-content/uploads/EFGS_SC/SC_EFGS_Minutes_20171130_FINAL.pdf"
+        }
+      ]
+    },
+    {
       "id": "black-rock-fieldwork-2017",
       "date": "2017-10-28",
       "datePrecision": "day",
@@ -594,6 +669,67 @@
           "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/",
           "title": "See the Black Rock Forest photo story",
           "caption": "Field photographs and teaching activities from the three-course Black Rock Forest excursion."
+        }
+      ]
+    },
+    {
+      "id": "gmis-hbase-delivery-2017",
+      "date": "2017-12-06",
+      "datePrecision": "day",
+      "dateLabel": "December 6, 2017 · dataset release",
+      "title": "Released global impervious-surface and settlement datasets through SEDAC",
+      "summary": "Developed the data-delivery application and supported SEDAC's release of GMIS and HBASE, making 30-metre global maps of impervious cover and settlement extent available for research on urban land and environmental change.",
+      "role": "Developed the delivery application and supported the dataset release with SEDAC and the NASA–University of Maryland data teams.",
+      "themes": [
+        "Population & data",
+        "Open science"
+      ],
+      "type": "Data product",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "GMIS · NASA dataset catalogue",
+          "url": "https://catalog.data.gov/dataset/global-man-made-impervious-surface-gmis-dataset-from-landsat"
+        },
+        {
+          "title": "HBASE · NASA dataset catalogue",
+          "url": "https://data.nasa.gov/dataset/global-human-built-up-and-settlement-extent-hbase-dataset-from-landsat"
+        }
+      ]
+    },
+    {
+      "id": "popgrid-viewer-development-2018",
+      "date": "2018",
+      "datePrecision": "range",
+      "dateLabel": "2018–2019",
+      "title": "Built the POPGRID population-comparison viewer",
+      "summary": "Led development of a browser-based tool for comparing population and settlement datasets side by side and estimating population within user-defined areas. POPGRID helps researchers understand how data sources and methods affect the numbers they use.",
+      "role": "Lead developer working with the SEDAC team and POPGRID collaborators.",
+      "themes": [
+        "Population & data",
+        "Open science"
+      ],
+      "type": "Decision-support software",
+      "status": "completed",
+      "featured": true,
+      "sources": [
+        {
+          "title": "NASA Earthdata · POPGRID Viewer",
+          "url": "https://www.earthdata.nasa.gov/learn/articles/popgrid-viewer-sedac"
+        },
+        {
+          "title": "POPGRID Data Collaborative · EFGS 2018 presentation",
+          "url": "https://www.efgs.info/wp-content/uploads/conferences/efgs/2018/presentations/PISTOLESI_V2_PRESENTATION.pdf"
+        }
+      ],
+      "media": [
+        {
+          "id": "popgrid-nasa-story",
+          "kind": "article",
+          "title": "Explore the POPGRID Viewer",
+          "url": "https://www.earthdata.nasa.gov/learn/articles/popgrid-viewer-sedac",
+          "caption": "NASA's illustrated guide explains the viewer and its population-comparison tools."
         }
       ]
     },
@@ -755,6 +891,31 @@
         {
           "title": "Harnessing the Geospatial Data Revolution for Good",
           "url": "https://people.climate.columbia.edu/projects/view/894"
+        }
+      ]
+    },
+    {
+      "id": "gpw-demographics-release-2018",
+      "date": "2018",
+      "datePrecision": "year",
+      "dateLabel": "2018",
+      "title": "Led the GPWv4.11 demographic-data release",
+      "summary": "Led the release of GPWv4.11 demographic layers, bringing census-based population estimates by age and sex onto a consistent global grid of approximately one kilometre. The data describe population in 2010 and support comparisons with environmental and geographic information.",
+      "role": "Led SEDAC's release effort with the GPW data team.",
+      "themes": [
+        "Population & data"
+      ],
+      "type": "Data product",
+      "status": "completed",
+      "featured": true,
+      "sources": [
+        {
+          "title": "GPWv4 Basic Demographic Characteristics, Revision 11",
+          "url": "https://catalog.data.gov/dataset/gridded-population-of-the-world-version-4-gpwv4-basic-demographic-characteristics-revis-11"
+        },
+        {
+          "title": "GPWv4.11 demographic data · citation",
+          "url": "https://doi.org/10.7927/H46M34XX"
         }
       ]
     },
@@ -991,6 +1152,37 @@
       ]
     },
     {
+      "id": "sedacr-package-2021",
+      "date": "2021",
+      "datePrecision": "year",
+      "dateLabel": "2021",
+      "title": "Developed sedacR for reproducible access to SEDAC data",
+      "summary": "Developed an R package for programmatically accessing and downloading SEDAC datasets, helping researchers bring socioeconomic and environmental data into reproducible analysis workflows.",
+      "role": "R-package developer working within the DANTE project.",
+      "themes": [
+        "Open science",
+        "Population & data"
+      ],
+      "type": "Research software",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "sedacR · public source repository",
+          "url": "https://gitlab.com/dante-sttr/sedacr"
+        }
+      ],
+      "media": [
+        {
+          "id": "sedacr-public-code",
+          "kind": "interactive",
+          "title": "Explore the sedacR source",
+          "url": "https://gitlab.com/dante-sttr/sedacr",
+          "caption": "R tools for programmatic access to NASA SEDAC data."
+        }
+      ]
+    },
+    {
       "id": "drone-teaching-grant-2021",
       "date": "2021",
       "datePrecision": "year",
@@ -1024,6 +1216,32 @@
           "width": 2200,
           "height": 1650,
           "rights": "institutional_archive_approved"
+        }
+      ]
+    },
+    {
+      "id": "lecz-version-three-release-2021",
+      "date": "2021-12",
+      "datePrecision": "month",
+      "dateLabel": "December 2021 · dataset release",
+      "title": "Released updated global coastal-population estimates",
+      "summary": "Led SEDAC's release of Low Elevation Coastal Zone version 3 with CUNY colleagues, providing urban and rural population and land-area estimates for 234 countries and territories. The dataset compares several inputs to show how data choices affect estimates of coastal exposure.",
+      "role": "Led the SEDAC release effort and the associated research with CIESIN and CUNY collaborators.",
+      "themes": [
+        "Climate & coasts",
+        "Population & data"
+      ],
+      "type": "Data product",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "LECZ Urban-Rural Population and Land Area Estimates, Version 3",
+          "url": "https://data.nasa.gov/dataset/low-elevation-coastal-zone-lecz-urban-rural-population-and-land-area-estimates-version-3"
+        },
+        {
+          "title": "LECZ version 3 · dataset citation",
+          "url": "https://doi.org/10.7927/d1x1-d702"
         }
       ]
     },
@@ -1337,6 +1555,32 @@
       ]
     },
     {
+      "id": "human-planet-forum-2023",
+      "date": "2023-07-11",
+      "datePrecision": "range",
+      "dateLabel": "July 11–12, 2023",
+      "title": "Organized the Human Planet Forum in New York",
+      "summary": "Organized a two-day forum connecting researchers, UN agencies and data users around population, settlements and sustainable development. Technical meetings at Columbia were followed by discussions near the UN High-Level Political Forum.",
+      "role": "Organizer working with the CIESIN, European Commission JRC, GEO and UN Sustainable Development Solutions Network teams.",
+      "themes": [
+        "Leadership",
+        "Population & data"
+      ],
+      "type": "International forum",
+      "status": "completed",
+      "featured": true,
+      "sources": [
+        {
+          "title": "Human Planet Forum 2023 · European Commission",
+          "url": "https://joint-research-centre.ec.europa.eu/events/human-planet-forum-2023-2023-07-11_en"
+        },
+        {
+          "title": "SDSN at the 2023 High-Level Political Forum",
+          "url": "https://www.unsdsn.org/news/sdsn-at-the-2023-high-level-political-forum-hlpf/"
+        }
+      ]
+    },
+    {
       "id": "building-climate-justice-2023",
       "date": "2023",
       "datePrecision": "range",
@@ -1438,9 +1682,9 @@
       "date": "2024-01-09",
       "datePrecision": "day",
       "dateLabel": "January 9, 2024",
-      "title": "Contributed to the SEDAC Open Science Workshop",
-      "summary": "Contributed presentations to the SEDAC Open Science Workshop, including open-science education with Rob Quick. Recordings, slides and other workshop materials are openly available.",
-      "role": "Workshop contributor and presenter with the SEDAC/NASA and invited-speaker community, including an open-science education presentation with Rob Quick.",
+      "title": "Co-organized the SEDAC Open Science Workshop",
+      "summary": "Co-organized the SEDAC Open Science Workshop, bringing researchers together around open science, reproducible methods and education. Helped produce its written report and contributed presentations, including open-science education with Rob Quick.",
+      "role": "Workshop co-organizer, presenter and report contributor with the SEDAC/NASA and invited-speaker community.",
       "themes": [
         "Open science",
         "Teaching"
@@ -1514,12 +1758,38 @@
       ]
     },
     {
+      "id": "human-planet-co-lead-2024",
+      "date": "2024-03",
+      "datePrecision": "month",
+      "dateLabel": "March 2024",
+      "title": "Became co-lead of the GEO Human Planet Initiative",
+      "summary": "Served as CIESIN's co-lead for the GEO Human Planet Initiative, working with European Commission JRC colleagues to connect population, settlement and infrastructure data with international research and development priorities.",
+      "role": "Represented CIESIN as co-lead, working alongside a European Commission JRC counterpart.",
+      "themes": [
+        "Leadership",
+        "Population & data"
+      ],
+      "type": "International leadership",
+      "status": "completed",
+      "featured": true,
+      "sources": [
+        {
+          "title": "Kytt MacManus · Columbia Engineering biography",
+          "url": "https://www.civil.columbia.edu/news/kytt-macmanus-joins-environmental-flow-physics-lab-efpl-applied-science-lead"
+        },
+        {
+          "title": "Kytt MacManus · Columbia World Projects",
+          "url": "https://worldprojects.columbia.edu/node/1210"
+        }
+      ]
+    },
+    {
       "id": "school-nlu-cohort-2024",
       "date": "2024-10-22",
       "datePrecision": "day",
       "dateLabel": "October 22, 2024 · video published",
-      "title": "Introduced SCHOOL to an NLU student cohort",
-      "summary": "Co-presented an introduction to the TOPS SCHOOL project for the fall 2024 NLU student cohort, covering the project, website, GitHub and student tasks.",
+      "title": "Introduced SCHOOL to National Louis University students",
+      "summary": "Co-presented an introduction to the TOPS SCHOOL project for the fall 2024 National Louis University student cohort, covering the project, website, GitHub and student tasks.",
       "role": "Co-presenter with Juan Martinez, CIESIN.",
       "themes": [
         "Open science",
@@ -1539,8 +1809,8 @@
           "id": "school-nlu-introduction-2024",
           "kind": "video",
           "url": "https://www.youtube.com/watch?v=QwFic5R3XBo",
-          "title": "Watch the SCHOOL introduction for NLU students",
-          "caption": "Juan Martinez and Kytt MacManus introduce SCHOOL to the fall 2024 NLU cohort. Published October 22, 2024."
+          "title": "Watch the SCHOOL introduction for National Louis University students",
+          "caption": "Juan Martinez and Kytt MacManus introduce SCHOOL to the fall 2024 National Louis University cohort. Published October 22, 2024."
         }
       ]
     },
@@ -1551,7 +1821,7 @@
       "dateLabel": "2025",
       "title": "Co-led ECLIP, selected for a CWP Social Impact Award",
       "summary": "Co-led ECLIP, one of the 2025 CWP Social Impact Award projects, applying community LiDAR monitoring to gaps in urban emissions information.",
-      "role": "Project co-lead, working with South Bronx Unite and Staten Island Urban Center on community LiDAR monitoring of urban emissions.",
+      "role": "Project co-lead with South Bronx Unite and Staten Island Urban Center, coordinating student work on deployment-site selection, viewshed analysis and LiDAR processing.",
       "themes": [
         "Climate & coasts",
         "Leadership"
@@ -1577,7 +1847,7 @@
       "dateLabel": "January 10, 2025 · announced",
       "title": "Joined EFPL as Applied Science Lead",
       "summary": "Joined Columbia Engineering’s Environmental Flow Physics Lab as Applied Science Lead, focusing on air quality and urban climate while continuing to teach GIS.",
-      "role": "Applied Science Lead in the Environmental Flow Physics Lab at Columbia Engineering.",
+      "role": "Applied Science Lead in Columbia Engineering's Environmental Flow Physics Lab. Subsequent work has included meteorological and wind-LiDAR field operations, geospatial data work and student mentoring with Marco Giometto's team.",
       "themes": [
         "Leadership",
         "Climate & coasts"
@@ -1814,6 +2084,28 @@
       ]
     },
     {
+      "id": "research-stabilization-award-2025",
+      "date": "2025-09-30",
+      "datePrecision": "day",
+      "dateLabel": "September 30, 2025",
+      "title": "Received Research Stabilization Fund support for USGRIDS 2020",
+      "summary": "Received Columbia University Research Stabilization Fund support for the preparation, validation and dissemination of USGRIDS 2020, helping advance the census-based population data and its scientific atlas.",
+      "role": "Research Stabilization Fund Round 2 award recipient, working with the USGRIDS research team.",
+      "themes": [
+        "Population & data",
+        "Open science"
+      ],
+      "type": "Research award",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "USGRIDS 2020 · project and funding acknowledgment",
+          "url": "https://github.com/kyttmacmanus/usgrids-2020-atlas"
+        }
+      ]
+    },
+    {
       "id": "ghs-wup-pop-release-2025",
       "date": "2025-11-17",
       "datePrecision": "day",
@@ -2020,6 +2312,28 @@
       ]
     },
     {
+      "id": "lamont-aerial-lidar-teaching-2026",
+      "date": "2026-04-12",
+      "datePrecision": "day",
+      "dateLabel": "April 12, 2026 · lab highlight",
+      "title": "Trained students in aerial LiDAR surveying at Lamont",
+      "summary": "Trained students in drone-based LiDAR surveying at the Lamont-Doherty Earth Observatory, connecting flight planning and data acquisition with three-dimensional campus mapping.",
+      "role": "Field instructor and survey coordinator with the Environmental Flow Physics Lab team.",
+      "themes": [
+        "Field methods",
+        "Teaching"
+      ],
+      "type": "Field education",
+      "status": "completed",
+      "featured": true,
+      "sources": [
+        {
+          "title": "Environmental Flow Physics Lab · aerial LiDAR teaching highlight",
+          "url": "https://efpl.engineering.columbia.edu/"
+        }
+      ]
+    },
+    {
       "id": "hemlock-hill-2026",
       "date": "2026-04-15",
       "datePrecision": "day",
@@ -2133,7 +2447,7 @@
       "dateLabel": "June 13, 2026",
       "title": "Mapped village and farm sites near Mtukuzi",
       "summary": "Worked with local collaborators and UNZA field colleagues on selected village, school, agricultural, river and water-well sites, informing subsequent open educational work.",
-      "role": "Fieldwork collaborator with UNZA colleagues and local partners, followed by SCHOOL educational work with Raphael Sutiono.",
+      "role": "Coordinated selected-site fieldwork with UNZA, NACUAS and local partners, including aviation authorization, drone mapping and photogrammetric products, followed by SCHOOL educational work with Raphael Sutiono.",
       "themes": [
         "Field methods",
         "Open science"
@@ -2239,6 +2553,28 @@
       ]
     },
     {
+      "id": "gil-flood-resilience-award-2026",
+      "date": "2026-07-10",
+      "datePrecision": "day",
+      "dateLabel": "July 10, 2026",
+      "title": "Contributed to a funded community flood-resilience project",
+      "summary": "Helped develop the NYC Bottom-up Flood Resilience Accelerator, selected for Columbia Climate School Global Impact Lab support. The collaboration brings community priorities, flood-risk analysis and decision-support tools together for New York City resilience planning.",
+      "role": "Project collaborator with academic lead Malgosia Madajewicz and project lead Erfan Amini, contributing geospatial, interface and AI-related expertise.",
+      "themes": [
+        "Climate & coasts",
+        "Population & data"
+      ],
+      "type": "Project award",
+      "status": "completed",
+      "featured": true,
+      "sources": [
+        {
+          "title": "Global Impact Lab · flood-resilience project and program context",
+          "url": "https://www.climate.columbia.edu/global-impact-lab"
+        }
+      ]
+    },
+    {
       "id": "envclim-contribution-2026",
       "date": "2026-08-15",
       "datePrecision": "day",
@@ -2340,6 +2676,28 @@
           "width": 1440,
           "height": 1520,
           "rights": "author_owned"
+        }
+      ]
+    },
+    {
+      "id": "dsi-watershed-selection-2026",
+      "date": "2026-10-22",
+      "datePrecision": "day",
+      "dateLabel": "October 22, 2026 · project selected",
+      "title": "Helped secure DSI Scholars support for watershed research",
+      "summary": "Contributed to an agricultural best-management-practice water-quality project selected for Spring 2027 DSI Scholars support. The planned research connects geospatial data, reproducible workflows and data-science methods with questions from New York City watershed partners.",
+      "role": "Collaborator on the Antoinette Wannebo-led project team, contributing to proposal development and the research plan.",
+      "themes": [
+        "Population & data",
+        "Open science"
+      ],
+      "type": "Research support",
+      "status": "completed",
+      "featured": true,
+      "sources": [
+        {
+          "title": "DSI Scholars · watershed project and program context",
+          "url": "https://datascience.columbia.edu/research/dsi-scholars/"
         }
       ]
     }
