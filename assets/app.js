@@ -94,7 +94,7 @@
       }
       const destination = safeUrl(media.url);
       if (!destination || !['video','interactive','slides','article'].includes(media.kind)) return '';
-      const kindLabel = {video:'Watch video',interactive:'Explore interactive',slides:'View slides',article:'Read illustrated account'}[media.kind];
+      const kindLabel = {video:'Watch video',interactive:'Explore interactive',slides:'View slides',article:'Read the story'}[media.kind];
       return `<div class="milestone-media-link"><span class="media-kind">${kindLabel}</span><a href="${escape(destination)}" rel="noopener">${escape(media.title)} <span aria-hidden="true">↗</span></a>${media.caption ? `<p>${escape(media.caption)}</p>` : ''}</div>`;
     }).join('');
     return figures ? `<div class="milestone-media">${figures}</div>` : '';
@@ -103,7 +103,7 @@
     const itemThemes = item.themes || [];
     const accent = itemThemes.map(theme => accents[theme]).find(Boolean) || '#006575';
     const sources = (item.sources || []).filter(source => safeUrl(source.url));
-    const sourceList = sources.length ? `<p class="milestone-source-label">Explore the sources</p><ul class="milestone-sources">${sources.map(source => `<li><a href="${escape(safeUrl(source.url))}" rel="noopener">${escape(source.title || 'Read the source')} <span aria-hidden="true">↗</span></a></li>`).join('')}</ul>` : '<p class="milestone-context">Supporting records are retained with the career archive.</p>';
+    const sourceList = sources.length ? `<p class="milestone-source-label">Explore this work</p><ul class="milestone-sources">${sources.map(source => `<li><a href="${escape(safeUrl(source.url))}" rel="noopener">${escape(source.title || 'Read the source')} <span aria-hidden="true">↗</span></a></li>`).join('')}</ul>` : '<p class="milestone-context">More about this work will be added here.</p>';
     return `<li class="timeline-item" id="${escape(item.id)}" style="--card-accent:${accent}"><article class="milestone" aria-labelledby="title-${escape(item.id)}"><div class="milestone-date-line"><time class="milestone-date" datetime="${escape(item.date)}">${escape(item.dateLabel || item.date.slice(0,4))}</time><span class="milestone-kind">${escape(label(item.type || 'milestone'))}</span></div><h3 id="title-${escape(item.id)}"><a href="#${escape(item.id)}">${escape(item.title)}</a></h3>${renderMedia(item)}<p class="milestone-summary">${escape(item.summary)}</p><div class="milestone-themes">${itemThemes.map(theme => `<span class="theme-label">${escape(label(theme))}</span>`).join('')}${item.status && item.status !== 'completed' ? `<span class="status-label">${escape(label(item.status))}</span>` : ''}</div><details><summary>Contribution &amp; sources<span class="sr-only">: ${escape(item.title)}</span></summary>${item.role ? `<p class="milestone-role"><strong>Kytt’s contribution</strong>${escape(item.role)}</p>` : ''}${item.detail ? `<p class="milestone-context">${escape(item.detail)}</p>` : ''}${sourceList}<a class="permalink" href="#${escape(item.id)}">Link to this milestone <span aria-hidden="true">↗</span></a></details></article></li>`;
   }
   function render(syncUrl = true) {
