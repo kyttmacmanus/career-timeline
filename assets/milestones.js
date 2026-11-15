@@ -21,6 +21,15 @@ window.CAREER_DATA = {
           "title": "DSI Scholars · watershed project and program context",
           "url": "https://datascience.columbia.edu/research/dsi-scholars/"
         }
+      ],
+      "media": [
+        {
+          "id": "watershed-plet-illustrated-model-guide-2024",
+          "kind": "document",
+          "url": "https://www.epa.gov/system/files/documents/2024-10/user-guide-oct-24-update_final_508-full.pdf#page=27",
+          "title": "View the PLET model's watershed and BMP screens",
+          "caption": "EPA's illustrated guide shows how PLET represents watershed land uses and agricultural best-management practices. The team reviewed this modeling resource while planning the research selected for Spring 2027 DSI support."
+        }
       ]
     },
     {
@@ -95,6 +104,21 @@ window.CAREER_DATA = {
           "title": "2026–2027 course development and augmentation grants",
           "url": "https://scienceandsociety.columbia.edu/content/2026-2027-course-development-and-augmentation-grants"
         }
+      ],
+      "media": [
+        {
+          "id": "climate-justice-grant-prior-fieldwork-2025",
+          "kind": "image",
+          "src": "assets/media/climate-justice-grant-prior-fieldwork-2025.webp",
+          "alt": "Aerial view of North Shore neighborhoods and waterfront from a course mapping session.",
+          "caption": "A December 1, 2025 field-mapping view from Building Climate Justice, the course later supported by the August 2026 augmentation grant for community time and fieldwork supplies.",
+          "credit": "Kytt MacManus / Columbia University project archive, 2025.",
+          "sourceUrl": "https://global.columbia.edu/work/research/the-emissions-community-lidar-exploratory-project",
+          "sourceTitle": "Building Climate Justice fieldwork on Staten Island",
+          "width": 2200,
+          "height": 1649,
+          "rights": "author_owned"
+        }
       ]
     },
     {
@@ -125,6 +149,13 @@ window.CAREER_DATA = {
           "title": "Explore the EnvClim data and documentation",
           "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/33JJXT&version=2.0",
           "caption": "Explore version 2.0 of the data, methods and documentation."
+        },
+        {
+          "id": "envclim-original-illustrated-city-profiles",
+          "kind": "document",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/12014996",
+          "title": "Download the original illustrated city profiles (ZIP, 117 MB)",
+          "caption": "The published country profiles show environmental vulnerability and climate-risk charts for individual cities. The Zambia profile includes a labeled Lusaka row with current vulnerability, future risk and projected 2050 risk-level plots."
         }
       ]
     },
@@ -147,6 +178,15 @@ window.CAREER_DATA = {
         {
           "title": "Global Impact Lab · flood-resilience project and program context",
           "url": "https://www.climate.columbia.edu/global-impact-lab"
+        }
+      ],
+      "media": [
+        {
+          "id": "gil-prior-rockaway-interactive-guide-2022",
+          "kind": "interactive",
+          "url": "https://storymaps.arcgis.com/stories/9f30a17af33049e69bbf9b0bb92c6d87",
+          "title": "Explore the team's earlier Rockaway flood-preparation guide",
+          "caption": "The 2022 Rockaway guide combines flood maps and household adaptation examples. The GIL proposal identifies it as earlier team work informing the planned CIRF decision-support tool."
         }
       ]
     },
@@ -389,6 +429,21 @@ window.CAREER_DATA = {
           "title": "Environmental Flow Physics Lab · aerial LiDAR teaching highlight",
           "url": "https://efpl.engineering.columbia.edu/"
         }
+      ],
+      "media": [
+        {
+          "id": "lamont-aerial-lidar-efpl-teaching-2026",
+          "kind": "image",
+          "src": "assets/media/lamont-aerial-lidar-efpl-teaching-2026.webp",
+          "alt": "Two photographs showing Kytt MacManus beside a drone and with students around field equipment at Lamont.",
+          "caption": "Preparing for aerial LiDAR fieldwork with students at Lamont, featured by EFPL on April 12, 2026. The lab described a survey target of 1,000 points per square meter.",
+          "credit": "Environmental Flow Physics Laboratory, Columbia University, 2026.",
+          "sourceUrl": "https://efpl.engineering.columbia.edu/",
+          "sourceTitle": "EFPL LiDAR teaching at Lamont",
+          "width": 720,
+          "height": 405,
+          "rights": "institutional_archive_approved"
+        }
       ]
     },
     {
@@ -616,6 +671,21 @@ window.CAREER_DATA = {
         {
           "title": "USGRIDS 2020 · project and funding acknowledgment",
           "url": "https://github.com/kyttmacmanus/usgrids-2020-atlas"
+        }
+      ],
+      "media": [
+        {
+          "id": "rsf-usgrids-funded-atlas-output-2026",
+          "kind": "image",
+          "src": "assets/media/rsf-usgrids-funded-atlas-output-2026.webp",
+          "alt": "USGRIDS atlas interface displaying a population map and data controls.",
+          "caption": "The 2026 review edition of the USGRIDS 2020 atlas shows a later output of the work supported by the Research Stabilization Fund award. This is a review edition preceding formal dataset publication.",
+          "credit": "Kytt MacManus / Columbia University; USGRIDS project team.",
+          "sourceUrl": "https://kyttmacmanus.github.io/usgrids-2020-atlas/",
+          "sourceTitle": "USGRIDS 2020 atlas review edition",
+          "width": 1440,
+          "height": 1520,
+          "rights": "author_owned"
         }
       ]
     },
@@ -886,6 +956,21 @@ window.CAREER_DATA = {
           "title": "The Emissions Community LiDAR Exploratory Project",
           "url": "https://global.columbia.edu/work/research/the-emissions-community-lidar-exploratory-project"
         }
+      ],
+      "media": [
+        {
+          "id": "eclip-staten-island-course-field-2025",
+          "kind": "image",
+          "src": "assets/media/eclip-staten-island-course-field-2025.webp",
+          "alt": "Aerial view of Staten Island's North Shore and waterfront during a December 2025 mapping session.",
+          "caption": "Staten Island's North Shore during the team's December 1, 2025 drone-mapping fieldwork for Building Climate Justice. This course and community work supported the ECLIP collaboration.",
+          "credit": "Kytt MacManus / Columbia University project archive, 2025.",
+          "sourceUrl": "https://global.columbia.edu/work/research/the-emissions-community-lidar-exploratory-project",
+          "sourceTitle": "Staten Island fieldwork for the ECLIP-connected climate-justice course",
+          "width": 2200,
+          "height": 1649,
+          "rights": "author_owned"
+        }
       ]
     },
     {
@@ -914,8 +999,8 @@ window.CAREER_DATA = {
           "id": "school-nlu-introduction-2024",
           "kind": "video",
           "url": "https://www.youtube.com/watch?v=QwFic5R3XBo",
-          "title": "Watch the SCHOOL introduction for National Louis University students",
-          "caption": "Juan Martinez and Kytt MacManus introduce SCHOOL to the fall 2024 National Louis University cohort. Published October 22, 2024."
+          "title": "Watch the SCHOOL introduction for the NLU cohort",
+          "caption": "Juan Martinez and Kytt MacManus introduce SCHOOL's open-science learning resources to the Fall 2024 NLU cohort. Recording published October 22, 2024."
         }
       ]
     },
@@ -942,6 +1027,21 @@ window.CAREER_DATA = {
         {
           "title": "Kytt MacManus · Columbia World Projects",
           "url": "https://worldprojects.columbia.edu/node/1210"
+        }
+      ],
+      "media": [
+        {
+          "id": "human-planet-ghsl-alignment-slide-2025",
+          "kind": "image",
+          "src": "assets/media/human-planet-ghsl-alignment-slide-2025.webp",
+          "alt": "Presentation slide pairing GHSL built-up, building volume, population and settlement-class maps with descriptions of their use in a proposed air-quality workflow.",
+          "caption": "A slide from Kytt's Human Planet Forum presentation in November 2025 shows how GHSL population, settlement and built-environment data can support comparable urban air-quality studies.",
+          "credit": "Kytt MacManus and Marco Giometto, Columbia EFPL, 2025; GHSL figure: European Commission / JRC, DOI 10.1080/17538947.2024.2390454.",
+          "sourceUrl": "https://joint-research-centre.ec.europa.eu/events/human-planet-forum-2025-2025-11-19_en",
+          "sourceTitle": "Human Planet Forum presentation: aligning urban air-quality work with GHSL",
+          "width": 1921,
+          "height": 1081,
+          "rights": "institutional_archive_approved"
         }
       ]
     },
@@ -1146,6 +1246,22 @@ window.CAREER_DATA = {
           "title": "SDSN at the 2023 High-Level Political Forum",
           "url": "https://www.unsdsn.org/news/sdsn-at-the-2023-high-level-political-forum-hlpf/"
         }
+      ],
+      "media": [
+        {
+          "id": "human-planet-forum-official-banner-2023",
+          "kind": "image",
+          "src": "assets/media/human-planet-forum-official-banner-2023.webp",
+          "alt": "Official Human Planet Forum artwork with a three-dimensional New York building map and the dates July 11-12, 2023.",
+          "caption": "The official artwork for the Human Planet Forum held in New York on July 11-12, 2023, which Kytt helped organize.",
+          "credit": "European Union / Joint Research Centre, with GEO Human Planet and Columbia CIESIN. CC BY 4.0; no endorsement implied.",
+          "sourceUrl": "https://joint-research-centre.ec.europa.eu/events/human-planet-forum-2023-2023-07-11_en",
+          "sourceTitle": "Human Planet Forum 2023 official event artwork",
+          "width": 1200,
+          "height": 470,
+          "rights": "cc_by",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+        }
       ]
     },
     {
@@ -1176,6 +1292,13 @@ window.CAREER_DATA = {
           "url": "https://news.climate.columbia.edu/2023/05/18/new-mapper-opens-up-access-to-flood-planning-in-new-york-state/",
           "title": "Explore the flood mapper and Newburgh example",
           "caption": "Explore the mapper's flood scenarios, building data and planning applications."
+        },
+        {
+          "id": "nys-fidss-original-newburgh-view",
+          "kind": "visual",
+          "url": "https://media.news.climate.columbia.edu/wp-content/uploads/2023/05/newburgh-nysfidss.png",
+          "title": "View the Newburgh flood-map example",
+          "caption": "The 2023 Newburgh example shows flood-planning layers and infrastructure along the Hudson River in the New York State Flood Impacts Decision Support System."
         }
       ]
     },
@@ -1311,6 +1434,22 @@ window.CAREER_DATA = {
         {
           "title": "GHS-POP2G – Population to Grid (Software)",
           "url": "https://gkhub.earthobservations.org/records/0pvet-pea19"
+        }
+      ],
+      "media": [
+        {
+          "id": "ghs-pop2g-original-interface",
+          "kind": "image",
+          "src": "assets/media/ghs-pop2g-original-interface.webp",
+          "alt": "Original GHS Population To Grid interface displays output, population-input and built-up-input panels.",
+          "caption": "The GHS-POP2G interface brings population boundaries and built-up grids together to produce population estimates. Shown here in the tool's 2020 version 2 guide.",
+          "credit": "Maffenini, Schiavina, Freire, Melchiorri, Pesaresi & Kemper (2020), GHS-POP2G User Guide, Figure 4; European Union / JRC. CC BY 4.0.",
+          "sourceUrl": "https://human-settlement.emergency.copernicus.eu/documents/GHS-POP2G_2_User_Guide.pdf",
+          "sourceTitle": "GHS-POP2G User Guide (2020) - Figure 4",
+          "width": 962,
+          "height": 814,
+          "rights": "cc_by",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
         }
       ]
     },
@@ -1481,6 +1620,22 @@ window.CAREER_DATA = {
           "title": "LECZ version 3 · dataset citation",
           "url": "https://doi.org/10.7927/d1x1-d702"
         }
+      ],
+      "media": [
+        {
+          "id": "lecz-v3-population-input-comparison",
+          "kind": "image",
+          "src": "assets/media/lecz-v3-population-input-comparison.webp",
+          "alt": "Full original grid of charts compares the percent of population in coastal elevation bands across elevation models and four population data sources.",
+          "caption": "Coastal-population estimates change with the elevation and population datasets used. The version 3 research compares these choices for 2015.",
+          "credit": "MacManus, Balk, Engin, McGranahan & Inman (2021), Earth System Science Data 13:5747-5801, Figure 9. CC BY 4.0.",
+          "sourceUrl": "https://essd.copernicus.org/articles/13/5747/2021/",
+          "sourceTitle": "Estimating population and urban areas at risk of coastal hazards - Figure 9",
+          "width": 2067,
+          "height": 1509,
+          "rights": "cc_by",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+        }
       ]
     },
     {
@@ -1548,6 +1703,21 @@ window.CAREER_DATA = {
           "title": "Explore the sedacR source",
           "url": "https://gitlab.com/dante-sttr/sedacr",
           "caption": "R tools for programmatic access to NASA SEDAC data."
+        },
+        {
+          "id": "sedacr-worked-usage-example",
+          "kind": "image",
+          "src": "assets/media/sedacr-worked-usage-example.webp",
+          "alt": "Rendered original sedacR worked example shows the authentication, repository-information and granule-download functions.",
+          "caption": "The package documentation walks through authenticating with Earthdata, exploring available datasets and downloading selected SEDAC files in R.",
+          "credit": "Kytt MacManus; Copyright (c) 2021 Trustees of Columbia University in the City of New York. MIT License.",
+          "sourceUrl": "https://gitlab.com/dante-sttr/sedacr/-/blob/master/README.md#example",
+          "sourceTitle": "sedacR - original worked usage example",
+          "width": 1150,
+          "height": 1157,
+          "rights": "license_permits_reuse",
+          "licenseUrl": "https://gitlab.com/dante-sttr/sedacr/-/blob/master/LICENSE.md",
+          "rightsLabel": "MIT License"
         }
       ]
     },
@@ -1608,6 +1778,22 @@ window.CAREER_DATA = {
           "title": "Updating New York State ClimAID Projections Using CMIP6 Models",
           "url": "https://people.climate.columbia.edu/projects/view/2162"
         }
+      ],
+      "media": [
+        {
+          "id": "nys-cmip6-regional-projections",
+          "kind": "image",
+          "src": "assets/media/nys-cmip6-regional-projections.webp",
+          "alt": "Original graph compares observed North Hudson annual temperatures with projected temperature averages under SSP2-4.5 and SSP5-8.5 through 2100.",
+          "caption": "Regional CMIP6 projections published in the later New York State Climate Impacts Assessment show possible temperature changes in the North Hudson region under two emissions scenarios.",
+          "credit": "Lamie et al. (2024), Annals of the New York Academy of Sciences, Figure 2-2; historical data NOAA/NRCC; assessment projections. CC BY 4.0.",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11668500/",
+          "sourceTitle": "New York State's Changing Climate (2024) - Figure 2-2",
+          "width": 600,
+          "height": 292,
+          "rights": "cc_by",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+        }
       ]
     },
     {
@@ -1637,6 +1823,13 @@ window.CAREER_DATA = {
           "url": "https://news.climate.columbia.edu/2020/04/28/covid-19-mapping-tool/",
           "title": "See the historical COVID-19 viewer in context",
           "caption": "See how the viewer combines COVID-19 case data with population age and sex estimates."
+        },
+        {
+          "id": "covid-viewer-original-2020-screenshot",
+          "kind": "visual",
+          "url": "https://media.news.climate.columbia.edu/wp-content/uploads/2020/04/1024x512sedac-covid19-nycpoppyramid-27apr2020.png",
+          "title": "View the original viewer screenshot",
+          "caption": "The viewer combines population age profiles with a New York City COVID-19 map. This screenshot is dated April 27, 2020 and shows historical figures."
         }
       ]
     },
@@ -1668,6 +1861,13 @@ window.CAREER_DATA = {
           "url": "https://news.climate.columbia.edu/2019/10/01/nighttime-lights-intern-remote-sensing/",
           "title": "Read the illustrated mentoring story",
           "caption": "Follow student research on nighttime lights, population and urban development."
+        },
+        {
+          "id": "nighttime-mentor-original-photograph",
+          "kind": "visual",
+          "url": "https://media.news.climate.columbia.edu/wp-content/uploads/2019/09/dorothee-grant_sedac-intern_final.jpg",
+          "title": "View the mentoring photograph",
+          "caption": "Kytt MacManus and intern Dorothee Grant explore satellite nighttime-light data in Palisades, New York, in August 2019. Photograph published by Columbia's State of the Planet."
         }
       ]
     },
@@ -1806,6 +2006,23 @@ window.CAREER_DATA = {
           "title": "GPWv4.11 demographic data · citation",
           "url": "https://doi.org/10.7927/H46M34XX"
         }
+      ],
+      "media": [
+        {
+          "id": "gpw-v411-europe-age65-original-map",
+          "kind": "image",
+          "src": "assets/media/gpw-v411-europe-age65-original-map.webp",
+          "alt": "Original GPWv4.11 map of Europe uses a seven-class legend to show the population aged65 and older as a percentage of the total population in2010; the complete title, scale, citation and license are retained.",
+          "caption": "The GPWv4.11 demographic layers show the share of people aged 65 and older across Europe in 2010. This original release map was prepared in December 2018.",
+          "credit": "CIESIN / NASA SEDAC; Copyright2018 Trustees of Columbia University in the City of New York. CC BY4.0.",
+          "sourceUrl": "https://www.flickr.com/photos/54545503@N04/48009047983/",
+          "sourceTitle": "Basic Demographic Characteristics, v4.11, 2010: The Elderly (Ages 65+), Europe",
+          "width": 2366,
+          "height": 3163,
+          "rights": "cc_by",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsLabel": "CC BY4.0"
+        }
       ]
     },
     {
@@ -1826,6 +2043,22 @@ window.CAREER_DATA = {
         {
           "title": "Harnessing the Geospatial Data Revolution for Good",
           "url": "https://people.climate.columbia.edu/projects/view/894"
+        }
+      ],
+      "media": [
+        {
+          "id": "displacement-pilot-viirs-slide",
+          "kind": "image",
+          "src": "assets/media/displacement-pilot-viirs-slide.webp",
+          "alt": "Original CIESIN conference slide shows VIIRS maps for two Mexican regions and charts summarizing daily luminosity values.",
+          "caption": "The team examined daily nighttime-light data from Mexico as one possible signal for understanding population displacement. This 2018 conference slide records the exploratory analysis.",
+          "credit": "de Sherbinin, Yetman, MacManus & Li / CIESIN (2018), SciDataCon presentation, slide 30",
+          "sourceUrl": "https://people.climate.columbia.edu/projects/view/894",
+          "sourceTitle": "Novel Data Streams for Identifying Displaced Populations - SciDataCon 2018, slide 30",
+          "width": 1741,
+          "height": 980,
+          "rights": "author_owned",
+          "rightsLabel": "Author portfolio material"
         }
       ]
     },
@@ -1858,9 +2091,9 @@ window.CAREER_DATA = {
         {
           "id": "urban-century-author-video",
           "kind": "video",
-          "title": "Watch the Nature in the Urban Century report overview",
-          "url": "https://www.stockholmresilience.org/research/research-videos/2019-01-08-nature-in-the-urban-century-report.html",
-          "caption": "Thomas Elmqvist summarizes the report in a four-minute Stockholm Resilience Centre video."
+          "url": "https://www.youtube.com/watch?v=xxwLneTKtl4",
+          "title": "Watch the report overview",
+          "caption": "Thomas Elmqvist explains Nature in the Urban Century and the role of nature in urban development in this four-minute report overview."
         }
       ]
     },
@@ -1928,6 +2161,23 @@ window.CAREER_DATA = {
         {
           "title": "Co-author Daniel Sousa publication list",
           "url": "https://www.dansousa.org/home/publications"
+        }
+      ],
+      "media": [
+        {
+          "id": "asian-megadeltas-elevation-nightlights",
+          "kind": "image",
+          "src": "assets/media/asian-megadeltas-elevation-nightlights.webp",
+          "alt": "The original two-panel figure maps Asian megadelta locations and elevation above, and population density with nighttime-light change below.",
+          "caption": "The study combines elevation, population density and changes in nighttime lights to compare development across nine Asian megadeltas.",
+          "credit": "Small, Sousa, Yetman, Elvidge & MacManus (2018), Global and Planetary Change 165:62-89, Figure 1. Elsevier. Reproduced under retained author reuse rights.",
+          "sourceUrl": "https://doi.org/10.1016/j.gloplacha.2018.03.005",
+          "sourceTitle": "Decades of urban growth and development on the Asian megadeltas - Figure 1",
+          "width": 1890,
+          "height": 2243,
+          "rights": "license_permits_reuse",
+          "licenseUrl": "https://www.elsevier.com/about/policies-and-standards/copyright",
+          "rightsLabel": "Author reuse permitted"
         }
       ]
     },
@@ -2001,6 +2251,21 @@ window.CAREER_DATA = {
           "title": "Explore the POPGRID Viewer",
           "url": "https://www.earthdata.nasa.gov/learn/articles/popgrid-viewer-sedac",
           "caption": "NASA's illustrated guide explains the viewer and its population-comparison tools."
+        },
+        {
+          "id": "popgrid-viewer-four-panel-2023",
+          "kind": "image",
+          "src": "assets/media/popgrid-viewer-four-panel-2023.webp",
+          "alt": "POPGRID's four-panel interface comparing settlement classification, population counts, built-up land and changes in nighttime lights around the Great Lakes.",
+          "caption": "The POPGRID Viewer as published by NASA in 2023, showing four population and settlement datasets side by side. This later view illustrates the tool developed from 2018 onward.",
+          "credit": "NASA's SEDAC. Map credits retained in the image: Esri, HERE, DeLorme, MapmyIndia and OpenStreetMap contributors; displayed datasets include GHSL, LandScan, World Settlement Footprint and VIIRS/DMSP.",
+          "sourceUrl": "https://www.earthdata.nasa.gov/learn/articles/popgrid-viewer-sedac",
+          "sourceTitle": "NASA Earthdata · POPGRID Viewer",
+          "width": 3000,
+          "height": 1470,
+          "rights": "license_permits_reuse",
+          "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "rightsLabel": "NASA media guidelines"
         }
       ]
     },
@@ -2027,6 +2292,21 @@ window.CAREER_DATA = {
         {
           "title": "HBASE · NASA dataset catalogue",
           "url": "https://data.nasa.gov/dataset/global-human-built-up-and-settlement-extent-hbase-dataset-from-landsat"
+        }
+      ],
+      "media": [
+        {
+          "id": "gmis-hbase-original-poster-2018",
+          "kind": "image",
+          "src": "assets/media/gmis-hbase-original-poster-2018.webp",
+          "alt": "A research poster showing GMIS and HBASE map services, image layers and population comparisons.",
+          "caption": "A July 2018 poster by Kytt and collaborators shows the GMIS/HBASE visualization and data-access services developed around the 2017 data release.",
+          "credit": "Kytt MacManus, Sri Vinay, Frank Pascuzzi, Al Pinto, Greg Yetman, Panshi Wang, Chengquan Huang and Eric Brown de Colstoun - CIESIN / University of Maryland / NASA",
+          "sourceUrl": "https://gkhub.earthobservations.org/records/5ftqx-35963/files/documentation.pdf?download=1",
+          "sourceTitle": "Data Visualization and Access Services for GMIS and HBASE - July 2018 poster",
+          "width": 2200,
+          "height": 1870,
+          "rights": "institutional_archive_approved"
         }
       ]
     },
@@ -2058,6 +2338,13 @@ window.CAREER_DATA = {
           "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/",
           "title": "See the Black Rock Forest photo story",
           "caption": "Field photographs and teaching activities from the three-course Black Rock Forest excursion."
+        },
+        {
+          "id": "blackrock-original-field-photographs-2017",
+          "kind": "gallery",
+          "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/",
+          "title": "Black Rock Forest: photographs from the October 2017 field trip",
+          "caption": "Original photographs show the class, balloon mapping, Kytt preparing a balloon and the aerial results. Ground photographs by Gina Dinnegan and Sara Lytle; aerial photographs credited to Fall 2017 Columbia GIS students."
         }
       ]
     },
@@ -2084,6 +2371,15 @@ window.CAREER_DATA = {
         {
           "title": "GFGS steering-group record · November 2017",
           "url": "https://www.efgs.info/wp-content/uploads/EFGS_SC/SC_EFGS_Minutes_20171130_FINAL.pdf"
+        }
+      ],
+      "media": [
+        {
+          "id": "gfgs-status-slides-2018",
+          "kind": "slides",
+          "url": "https://www.efgs.info/wp-content/uploads/EFGS_SC/EFGS-2018-GFGS-status-and-plans_VHB.pdf",
+          "title": "Explore the Global Forum's population-grid work",
+          "caption": "The Global Forum's October 2018 presentation lists Kytt among its members and shows the group's population-grid demonstrations and plans."
         }
       ]
     },
@@ -2112,6 +2408,21 @@ window.CAREER_DATA = {
           "title": "NASA collection record and release date",
           "url": "https://cmr.earthdata.nasa.gov/search/collections.umm_json?short_name=CIESIN_SEDAC_GPWv4_POPCOUNT&version=4.0"
         }
+      ],
+      "media": [
+        {
+          "id": "gpw4-production-global-map-2016",
+          "kind": "image",
+          "src": "assets/media/gpw4-production-global-map-2016.webp",
+          "alt": "Global GPWv4 population-density map for 2015, showing concentrations of population across continents.",
+          "caption": "The June 2016 GPWv4 production map shows estimated population density for 2015, derived from national censuses and population registers.",
+          "credit": "CIESIN - Columbia University / NASA SEDAC - map credited June 2016",
+          "sourceUrl": "https://doi.org/10.7927/H4NP22DQ",
+          "sourceTitle": "GPWv4 Population Density Grid, 2015: Global - June 2016 production map",
+          "width": 3300,
+          "height": 2550,
+          "rights": "institutional_archive_approved"
+        }
       ]
     },
     {
@@ -2133,6 +2444,15 @@ window.CAREER_DATA = {
         {
           "title": "NASA Hazards and Population Mapper · service and version history",
           "url": "https://apps.apple.com/us/app/hazards-and-population-mapper/id1092168898"
+        }
+      ],
+      "media": [
+        {
+          "id": "pes-nasa-app-original-screenshots",
+          "kind": "gallery",
+          "url": "https://apps.apple.com/us/app/hazards-and-population-mapper/id1092168898",
+          "title": "View NASA's app screenshots",
+          "caption": "NASA's Hazards and Population Mapper uses SEDAC-s Population Estimation Service. Its published screenshots show a later version of the app, including a 2019 earthquake example."
         }
       ]
     },
@@ -2200,6 +2520,21 @@ window.CAREER_DATA = {
         {
           "title": "AGILE 2016 conference paper",
           "url": "https://agile-online.org/Conference_Paper/cds/agile_2016/shortpapers/152_Paper_in_PDF.pdf"
+        }
+      ],
+      "media": [
+        {
+          "id": "ghspop-2016-original-workflow",
+          "kind": "image",
+          "src": "assets/media/ghspop-2016-original-workflow.webp",
+          "alt": "Original workflow diagram combining GHS-BUILT settlement information and GPWv4 populated census units into GHS-POP grids.",
+          "caption": "The published 2016 conference paper shows how settlement information and GPWv4 census units were combined to produce population grids.",
+          "credit": "Sergio Freire, Kytt MacManus, Martino Pesaresi, Erin Doxsey-Whitfield and Jane Mills - Joint Research Centre / CIESIN",
+          "sourceUrl": "https://publications.jrc.ec.europa.eu/repository/handle/JRC100523",
+          "sourceTitle": "Development of new open and free multi-temporal global population grids at 250 m resolution - AGILE 2016, Figure 2",
+          "width": 561,
+          "height": 443,
+          "rights": "institutional_archive_approved"
         }
       ]
     },
@@ -2318,7 +2653,7 @@ window.CAREER_DATA = {
           "kind": "slides",
           "url": "https://www.nysgis.net/Docs/NYGeoCon2019/Building-Data-for-Climate-Change-Adaptation.pdf",
           "title": "View the building-data and flood-impact presentation",
-          "caption": "Greg Yetman's NYGeoCon 2019 presentation introduces the team's building footprints, flood grids and impact-assessment methods."
+          "caption": "Greg Yetman's 2019 NYGeoCon presentation shows the team's building footprints, flood grids and impact-assessment methods."
         }
       ]
     },
@@ -2382,6 +2717,22 @@ window.CAREER_DATA = {
         {
           "title": "Rising Seas Threaten Low-Lying Coastal Cities, 10% of World Population",
           "url": "https://news.climate.columbia.edu/2019/10/25/rising-seas-low-lying-coastal-cities/"
+        }
+      ],
+      "media": [
+        {
+          "id": "lecz2-jakarta-map-2013",
+          "kind": "image",
+          "src": "assets/media/lecz2-jakarta-map-2013.webp",
+          "alt": "Side-by-side LECZ version2 maps of Jakarta showing population density and coastal elevation zones.",
+          "caption": "A 2013 map compares Jakarta's 2010 population density with coastal elevation using the LECZ version 2 data.",
+          "credit": "SEDACMaps / CIESIN - Columbia University - CC BY 3.0",
+          "sourceUrl": "https://www.flickr.com/photos/54545503@N04/13873745385",
+          "sourceTitle": "Urban-Rural Population and Land Area Estimates v2 - Jakarta, 2010",
+          "width": 3153,
+          "height": 2415,
+          "rights": "cc_by",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
         }
       ]
     },
@@ -2576,6 +2927,19 @@ window.CAREER_DATA = {
           "url": "https://news.climate.columbia.edu/2012/06/04/in-your-own-backyard-mapping-communities-near-superfund-sites/",
           "title": "Explore the original Superfund mapping feature",
           "caption": "See how the mapper brings population and environmental data together around hazardous-waste sites."
+        },
+        {
+          "id": "superfund-population-tool-2012",
+          "kind": "image",
+          "src": "assets/media/superfund-population-tool-2012.webp",
+          "alt": "The NPL Superfund Footprint mapping tool displaying population density, Superfund sites and four-mile buffers across the United States.",
+          "caption": "The Superfund mapping tool displays population density and communities within four miles of listed sites, as featured by Columbia in June 2012.",
+          "credit": "Columbia University Superfund Research Program / CIESIN - Meredith Golden, Tricia Chai-Onn, Sandra Baptista, Kytt MacManus and Elisabeth Sydor",
+          "sourceUrl": "https://news.climate.columbia.edu/2012/06/04/in-your-own-backyard-mapping-communities-near-superfund-sites/",
+          "sourceTitle": "In Your Own Backyard: Mapping Communities Near Superfund Sites",
+          "width": 1680,
+          "height": 906,
+          "rights": "institutional_archive_approved"
         }
       ]
     },
@@ -2597,6 +2961,21 @@ window.CAREER_DATA = {
         {
           "title": "A GIS analysis of the number of people living near each of the world’s nuclear power plants",
           "url": "https://blogs.nature.com/blog/a_gis_analysis_of_the_number_o/"
+        }
+      ],
+      "media": [
+        {
+          "id": "nuclear-analysis-poster-2011",
+          "kind": "image",
+          "src": "assets/media/nuclear-analysis-poster-2011.webp",
+          "alt": "CIESIN poster mapping population within 75 kilometres of nuclear plants worldwide, with regional maps for the northeastern United States, France, India and Japan.",
+          "caption": "A September 2011 CIESIN poster presents the nuclear-plant proximity analysis, with a global comparison and four regional population maps.",
+          "credit": "Kytt MacManus and Liana Razafindrazay - CIESIN, with layout assistance from Andres Gonzalez; reactor locations: Declan Butler (2011); population: SEDAC/CIESIN",
+          "sourceUrl": "https://blogs.nature.com/blog/a_gis_analysis_of_the_number_o/",
+          "sourceTitle": "Where are the Nuclear Power Plants and Where are the People- - CIESIN Open House 2011",
+          "width": 2400,
+          "height": 1920,
+          "rights": "institutional_archive_approved"
         }
       ]
     },
@@ -2620,6 +2999,21 @@ window.CAREER_DATA = {
           "title": "NYGeoCon 2017 presenter biography",
           "url": "https://nysgis.net/geocon2017html/techsessions.html"
         }
+      ],
+      "media": [
+        {
+          "id": "columbia-teaching-vulnerability-slide-2019",
+          "kind": "image",
+          "src": "assets/media/columbia-teaching-vulnerability-slide-2019.webp",
+          "alt": "A Columbia GIS teaching slide compares maps of exposure, sensitivity, adaptive capacity and overall vulnerability in Mali.",
+          "caption": "A later example of Kytt's environmental GIS teaching: vulnerability maps used in his January 2019 GIS for Sustainable Development course at Columbia College.",
+          "credit": "Kytt MacManus and Linda Pistolesi - Columbia University / CIESIN; maps: CIESIN, January 2014",
+          "sourceUrl": "https://nysgis.net/geocon2017html/techsessions.html",
+          "sourceTitle": "NYGeoCon 2017 - Kytt MacManus presenter biography and Columbia teaching roles",
+          "width": 1600,
+          "height": 1200,
+          "rights": "institutional_archive_approved"
+        }
       ]
     },
     {
@@ -2642,6 +3036,21 @@ window.CAREER_DATA = {
           "title": "GIS from the Hudson to the Nile: Data Visualization at Local, National, and Global Scales",
           "url": "https://earth2class.org/category/gis-education/"
         }
+      ],
+      "media": [
+        {
+          "id": "hudson-workshop-handout-2009",
+          "kind": "image",
+          "src": "assets/media/hudson-workshop-handout-2009.webp",
+          "alt": "Original workshop handout with a screenshot of the Hudson River Watershed Mapper and its environmental data layers.",
+          "caption": "The Hudson River Watershed Mapper handout Kytt supplied for the September 26, 2009 Earth2Class workshop shows the actual mapping application used in the session.",
+          "credit": "CIESIN - Columbia University and Hudson River Watershed Mapper partners",
+          "sourceUrl": "https://earth2class.org/gis-from-the-hudson-to-the-nile-data-visualization-at-local-national-and-global-scales-with-kytt-macmanus-and-malanding-jaiteh-26-sep-2009/",
+          "sourceTitle": "Hudson River Watershed Mapper - original September 2009 workshop handout",
+          "width": 1500,
+          "height": 1942,
+          "rights": "institutional_archive_approved"
+        }
       ]
     },
     {
@@ -2662,6 +3071,21 @@ window.CAREER_DATA = {
         {
           "title": "Assessment of Select Climate Change Impacts on U.S. National Security",
           "url": "https://scholars.unh.edu/faculty_pubs/169/"
+        }
+      ],
+      "media": [
+        {
+          "id": "climate-coastal-maps-2008",
+          "kind": "image",
+          "src": "assets/media/climate-coastal-maps-2008.webp",
+          "alt": "Maps showing population inside and outside the ten-metre low-elevation coastal zone in China and Egypt.",
+          "caption": "Coastal population maps from the July 2008 working paper, comparing exposure in China and Egypt. The report identifies these maps as preliminary analyses using one-kilometre elevation data.",
+          "credit": "Marc A. Levy and coauthors, including Kytt MacManus - CIESIN / University of New Hampshire / ISciences",
+          "sourceUrl": "https://ciesin.columbia.edu/sites/ciesin.columbia.edu/files/content/Climate_Security_CIESIN_July_2008_v1_0.ed_.cleaned.pdf#page=29",
+          "sourceTitle": "Assessment of Select Climate Change Impacts on U.S. National Security - report p.26",
+          "width": 1800,
+          "height": 2330,
+          "rights": "institutional_archive_approved"
         }
       ]
     },

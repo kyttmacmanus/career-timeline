@@ -45,8 +45,10 @@ Raw email, private document URLs, personnel appraisals, internal source IDs, con
 
 ## Photos and multimedia
 
-Selected milestones include real project photographs, published research figures and archival maps, with captions, credits and public source links. The **With media** view collects these entries. Click an image to enlarge it; the image links also work without JavaScript. Recording, slide and interactive-map links open the corresponding public materials without automatically loading an external player.
+Each of the 74 milestones includes original project multimedia: photographs, published figures and maps, software views, presentations or recordings, with dates, credits and source links. The **With media** view collects these entries. Click an image to enlarge it; the image links also work without JavaScript. Recording, slide, interactive-map and original-image links open the corresponding public materials without automatically loading an external player. Some photographs and historical tool views open at the original publisher; later project images are dated explicitly.
 
 The image files under `assets/media/` are full-frame display derivatives with incidental embedded metadata removed. Creative Commons figures retain author and license links; institutional photographs retain project credits. Recovery from a mailbox is provenance, not a general reuse license. Unattributed or contextually private media remain outside this repository.
 
-To add media, extend an entry's `media` array with an approved local image or a public video/interactive/slides/article link. The build validates the media metadata and copies only image paths explicitly referenced by the public records. Keep original messages, attachment originals and private recovery records outside the site.
+To add media, extend an entry's `media` array with an approved local image or a public video/interactive/slides/gallery/visual/document/article link. The build validates the media metadata and copies only image paths explicitly referenced by the public records. Keep original messages, attachment originals and private recovery records outside the site.
+
+The sedacR worked-example documentation retains its [complete MIT license notice](assets/licenses/sedacr-MIT.txt).

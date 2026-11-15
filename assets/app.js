@@ -93,8 +93,8 @@
         return `<figure class="milestone-image"><a class="media-preview" href="${escape(media.src)}" data-image-open data-milestone-id="${escape(item.id)}" data-media-index="${index}" aria-label="Enlarge image: ${escape(media.alt)}"><img src="${escape(media.src)}" alt="${escape(media.alt)}" width="${Number(media.width)}" height="${Number(media.height)}" loading="lazy" decoding="async"><span class="media-enlarge" aria-hidden="true">Enlarge ↗</span></a><figcaption><span class="media-caption">${escape(media.caption)}</span>${renderCredit(media)}${source ? `<a class="media-source" href="${escape(source)}" rel="noopener">${escape(media.sourceTitle || 'Image source')} ↗</a>` : ''}</figcaption></figure>`;
       }
       const destination = safeUrl(media.url);
-      if (!destination || !['video','interactive','slides','article'].includes(media.kind)) return '';
-      const kindLabel = {video:'Watch video',interactive:'Explore interactive',slides:'View slides',article:'Read the story'}[media.kind];
+      if (!destination || !['video','interactive','slides','gallery','visual','document','article'].includes(media.kind)) return '';
+      const kindLabel = {video:'Watch video',interactive:'Explore interactive',slides:'View slides',gallery:'View image gallery',visual:'View original image',document:'View document',article:'Read the story'}[media.kind];
       return `<div class="milestone-media-link"><span class="media-kind">${kindLabel}</span><a href="${escape(destination)}" rel="noopener">${escape(media.title)} <span aria-hidden="true">↗</span></a>${media.caption ? `<p>${escape(media.caption)}</p>` : ''}</div>`;
     }).join('');
     return figures ? `<div class="milestone-media">${figures}</div>` : '';

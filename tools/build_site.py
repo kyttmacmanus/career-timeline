@@ -17,6 +17,7 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content/milestones.json"
 ASSETS = ("style.css", "app.js", "milestones.js")
+LICENSE_NOTICES = ("assets/licenses/sedacr-MIT.txt",)
 PRIVATE_HOSTS = {"mail.google.com", "docs.google.com", "drive.google.com", "localhost", "127.0.0.1"}
 IMAGE_RIGHTS = {"institutional_archive_approved", "author_owned", "cc_by", "cc_by_sa", "public_domain", "permission_granted", "license_permits_reuse"}
 IMAGE_PATH = re.compile(r"assets/media/[a-z0-9][a-z0-9._-]*\.(?:webp|jpg|jpeg|png)", re.I)
@@ -48,7 +49,7 @@ def validate_media(media):
         assert public_url(media["sourceUrl"]), "Image source must be a public HTTPS destination"
         assert all(type(media.get(key)) is int and 0 < media[key] <= 20000 for key in ("width", "height")), "Image dimensions missing or invalid"
     else:
-        assert kind in {"video", "interactive", "slides", "article"}, "Unsupported media kind"
+        assert kind in {"video", "interactive", "slides", "gallery", "visual", "document", "article"}, "Unsupported media kind"
         assert isinstance(media.get("title"), str) and media["title"].strip(), "Media link needs a title"
         assert public_url(media.get("url", "")), "Media link must be public HTTPS"
         assert "caption" not in media or isinstance(media["caption"], str)
@@ -101,7 +102,7 @@ def media_markup(item):
             rights = f' · <a href="{e(media["licenseUrl"], quote=True)}" rel="noopener">{e(media.get("rightsLabel") or "Reuse license")}</a>' if media.get("licenseUrl") else ' · ' + e(media["rightsLabel"]) if media.get("rightsLabel") else ''
             parts.append(f'''<figure class="milestone-image"><a class="media-preview" href="{e(media['src'], quote=True)}" data-image-open data-milestone-id="{e(item['id'])}" data-media-index="{index}" aria-label="Enlarge image: {e(media['alt'], quote=True)}"><img src="{e(media['src'], quote=True)}" alt="{e(media['alt'], quote=True)}" width="{media['width']}" height="{media['height']}" loading="lazy" decoding="async"><span class="media-enlarge" aria-hidden="true">Enlarge ↗</span></a><figcaption><span class="media-caption">{e(media['caption'])}</span><span class="media-credit">{e(media['credit'])}{rights}</span><a class="media-source" href="{e(media['sourceUrl'], quote=True)}" rel="noopener">{e(media['sourceTitle'])} ↗</a></figcaption></figure>''')
         else:
-            label = {"video": "Watch video", "interactive": "Explore interactive", "slides": "View slides", "article": "Read the story"}[media["kind"]]
+            label = {"video": "Watch video", "interactive": "Explore interactive", "slides": "View slides", "gallery": "View image gallery", "visual": "View original image", "document": "View document", "article": "Read the story"}[media["kind"]]
             caption = f'<p>{e(media["caption"])}</p>' if media.get("caption") else ""
             parts.append(f'''<div class="milestone-media-link"><span class="media-kind">{label}</span><a href="{e(media['url'], quote=True)}" rel="noopener">{e(media['title'])} <span aria-hidden="true">↗</span></a>{caption}</div>''')
     return '<div class="milestone-media">' + "".join(parts) + '</div>' if parts else ""
@@ -146,6 +147,10 @@ def main():
         (dest / "assets").mkdir(exist_ok=True)
         for name in ASSETS:
             shutil.copy2(ROOT / "assets" / name, dest / "assets" / name)
+        for relative in LICENSE_NOTICES:
+            target = dest / relative
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(ROOT / relative, target)
         # Copy only derivatives referenced by validated public records.
         # Never recursively copy private recovery or asset directories.
         media_assets = {m["src"] for item in data["milestones"] for m in item.get("media", []) if m["kind"] == "image"}
