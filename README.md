@@ -2,7 +2,7 @@
 
 A static GitHub Pages website showing selected, sourced career milestones. The visual language follows Drones Helping People: slate and cyan, a light research-portfolio layout, an alternating timeline, and expandable contributions and source links.
 
-The reviewed content currently spans 2008–2026. `content/milestones.json` is the editable source. The website includes only an explicit public allowlist. The complete archive review and unresolved evidence queue stay outside this folder.
+The reviewed content currently spans 2007–2026. `content/milestones.json` is the editable source. The website includes only an explicit public allowlist. The complete archive review and unresolved evidence queue stay outside this folder.
 
 ## Preview
 
