@@ -42,3 +42,11 @@ Review the website at [kyttmacmanus.github.io/career-timeline](https://kyttmacma
 Review date: November 15, 2026. The local email index ends October 24, 2025. A separate private review records whole-index screening, every curated event's selection/hold decision, public corroboration, and targeted connected-source checks. Screening is retrieval, not semantic validation of every message. This public selection is not a claim that every achievement in the archive has been independently verified.
 
 Raw email, private document URLs, personnel appraisals, internal source IDs, contact details and private evidence exports are excluded. No analytics, tracking, external scripts or third-party fonts are loaded.
+
+## Photos and multimedia
+
+Selected milestones include real project photographs, published research figures and archival maps, with captions, credits and public source links. The **With media** view collects these entries. Click an image to enlarge it; the image links also work without JavaScript. Recording, slide and interactive-map links open the corresponding public materials without automatically loading an external player.
+
+The image files under `assets/media/` are full-frame display derivatives with incidental embedded metadata removed. Creative Commons figures retain author and license links; institutional photographs retain project credits. Recovery from a mailbox is provenance, not a general reuse license. Unattributed or contextually private media remain outside this repository.
+
+To add media, extend an entry's `media` array with an approved local image or a public video/interactive/slides/article link. The build validates the media metadata and copies only image paths explicitly referenced by the public records. Keep original messages, attachment originals and private recovery records outside the site.

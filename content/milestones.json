@@ -106,6 +106,21 @@
           "title": "Sandy’s Surge Affected More Than 1.4 Million in 11 States",
           "url": "https://news.climate.columbia.edu/2012/11/12/hurricane-sandys-storm-surge-affected-more-than-1-4-million-coastal-residents-in-11-states/"
         }
+      ],
+      "media": [
+        {
+          "id": "sandy-map-redesign-2014",
+          "kind": "image",
+          "src": "assets/media/sandy-map-redesign-2014.webp",
+          "alt": "Population density in the northeastern United States with Sandy storm-surge extent shown in blue and a New York City inset.",
+          "caption": "A later visualization of the Sandy work: Kytt's 2014 map redesign for a SEDAC flyer, combining 2010 population density and storm-surge extent.",
+          "credit": "Map: Kytt MacManus / CIESIN, Columbia University; storm-surge inputs: FEMA.",
+          "sourceUrl": "https://news.climate.columbia.edu/2012/11/12/hurricane-sandys-storm-surge-affected-more-than-1-4-million-coastal-residents-in-11-states/",
+          "sourceTitle": "Original Sandy population-exposure analysis",
+          "width": 1200,
+          "height": 750,
+          "rights": "institutional_archive_approved"
+        }
       ]
     },
     {
@@ -149,6 +164,21 @@
           "title": "Taking Advantage of the Improved Availability of Census Data: A First Look at the Gridded Population of the World, Version 4",
           "url": "https://www.tandfonline.com/doi/abs/10.1080/23754931.2015.1014272"
         }
+      ],
+      "media": [
+        {
+          "id": "gpw4-global-map-2014",
+          "kind": "image",
+          "src": "assets/media/gpw4-global-map-2014.webp",
+          "alt": "GPW version 4 global population-density map, with legend and CIESIN December 2014 credit preserved.",
+          "caption": "A December 2014 GPWv4 population-density map, shared for a NASA webinar in January 2015. This is a related project illustration, not a figure from the paper.",
+          "credit": "Map: CIESIN, Columbia University, December 2014.",
+          "sourceUrl": "https://www.tandfonline.com/doi/abs/10.1080/23754931.2015.1014272",
+          "sourceTitle": "GPWv4 methods paper",
+          "width": 786,
+          "height": 468,
+          "rights": "institutional_archive_approved"
+        }
       ]
     },
     {
@@ -170,6 +200,15 @@
         {
           "title": "Students Practice GIS and Remote-Sensing Field Work in Black Rock Forest",
           "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+        }
+      ],
+      "media": [
+        {
+          "id": "original-photo-story-black-rock-fieldwork-2017",
+          "kind": "article",
+          "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/",
+          "title": "See the Black Rock Forest photo story",
+          "caption": "Original field photographs credited in the institutional story."
         }
       ]
     },
@@ -234,6 +273,22 @@
           "title": "The spatial allocation of population: a review of large-scale gridded population data products and their fitness for use",
           "url": "https://essd.copernicus.org/articles/11/1385/2019/index.html"
         }
+      ],
+      "media": [
+        {
+          "id": "news-population-methods-2019",
+          "kind": "image",
+          "src": "assets/media/news-population-methods-2019.webp",
+          "alt": "Four approaches to allocating census populations to grid cells, from the 2019 review. Figure 1.",
+          "caption": "Four approaches to allocating census populations to grid cells, from the 2019 review. Figure 1.",
+          "credit": "Leyk et al. (2019), Earth System Science Data, Figure 1 · CC BY 4.0",
+          "sourceUrl": "https://essd.copernicus.org/articles/11/1385/2019/index.html",
+          "sourceTitle": "The spatial allocation of population: a review of large-scale gridded population data products and their fitness for use",
+          "width": 2067,
+          "height": 1360,
+          "rights": "cc_by",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+        }
       ]
     },
     {
@@ -256,6 +311,15 @@
           "title": "Bright Lights, Big Cities: An Intern Takes on the World of Remote Sensing",
           "url": "https://news.climate.columbia.edu/2019/10/01/nighttime-lights-intern-remote-sensing/"
         }
+      ],
+      "media": [
+        {
+          "id": "news-nighttime-mentor-2019",
+          "kind": "article",
+          "url": "https://news.climate.columbia.edu/2019/10/01/nighttime-lights-intern-remote-sensing/",
+          "title": "Read the illustrated mentoring story",
+          "caption": "View the original illustrated story and its credits."
+        }
       ]
     },
     {
@@ -277,6 +341,15 @@
           "title": "Global COVID-19 Map Viewer Shows Case Data, Age/Sex Features of At-Risk Populations",
           "url": "https://news.climate.columbia.edu/2020/04/28/covid-19-mapping-tool/"
         }
+      ],
+      "media": [
+        {
+          "id": "news-covid-viewer-2020",
+          "kind": "article",
+          "url": "https://news.climate.columbia.edu/2020/04/28/covid-19-mapping-tool/",
+          "title": "See the historical COVID-19 viewer in context",
+          "caption": "View the original illustrated story and its credits."
+        }
       ]
     },
     {
@@ -297,6 +370,22 @@
         {
           "title": "Storm tide amplification and habitat changes due to urbanization of a lagoonal estuary",
           "url": "https://nhess.copernicus.org/articles/20/2415/2020/"
+        }
+      ],
+      "media": [
+        {
+          "id": "news-jamaica-tides-2020",
+          "kind": "image",
+          "src": "assets/media/news-jamaica-tides-2020.webp",
+          "alt": "Modeled storm-tide exceedance curves compare Jamaica Bay's historical and modern landscapes at a common 2016 sea level. Figure 6.",
+          "caption": "Modeled storm-tide exceedance curves compare Jamaica Bay's historical and modern landscapes at a common 2016 sea level. Figure 6.",
+          "credit": "Orton, Sanderson, Talke, Giampieri & MacManus (2020), NHESS, Figure 6 · CC BY 4.0",
+          "sourceUrl": "https://nhess.copernicus.org/articles/20/2415/2020/",
+          "sourceTitle": "Storm tide amplification and habitat changes due to urbanization of a lagoonal estuary",
+          "width": 2067,
+          "height": 1674,
+          "rights": "cc_by",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
         }
       ]
     },
@@ -342,6 +431,22 @@
           "title": "Estimating population and urban areas at risk of coastal hazards, 1990–2015: how data choices matter",
           "url": "https://essd.copernicus.org/articles/13/5747/2021/"
         }
+      ],
+      "media": [
+        {
+          "id": "news-coastal-methods-2021",
+          "kind": "image",
+          "src": "assets/media/news-coastal-methods-2021.webp",
+          "alt": "The coastal study's workflow combines elevation, settlement and population inputs to compare coastal-zone estimates. Figure 4.",
+          "caption": "The coastal study's workflow combines elevation, settlement and population inputs to compare coastal-zone estimates. Figure 4.",
+          "credit": "MacManus, Balk, Engin, McGranahan & Inman (2021), Earth System Science Data, Figure 4 · CC BY 4.0",
+          "sourceUrl": "https://essd.copernicus.org/articles/13/5747/2021/",
+          "sourceTitle": "Estimating population and urban areas at risk of coastal hazards, 1990–2015: how data choices matter",
+          "width": 951,
+          "height": 502,
+          "rights": "cc_by",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+        }
       ]
     },
     {
@@ -363,6 +468,15 @@
         {
           "title": "Students Take the Driver’s Seat in Drone-Enabled Geospatial Data Analysis",
           "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+        }
+      ],
+      "media": [
+        {
+          "id": "callicoon-student-storymap",
+          "kind": "interactive",
+          "url": "https://storymaps.arcgis.com/stories/74fb59208a5945b2a9962a33e8359796",
+          "title": "Explore the students' fieldwork StoryMap",
+          "caption": "Spring 2022 Columbia GIS students, Kytt MacManus and teaching assistant Juan Nathaniel."
         }
       ]
     },
@@ -409,7 +523,22 @@
           "url": "https://news.climate.columbia.edu/2024/02/02/building-climate-justice-empowering-communities-through-coastal-resilience-at-columbia-university/"
         }
       ],
-      "season": "fall"
+      "season": "fall",
+      "media": [
+        {
+          "id": "staten-island-2023-rooftop",
+          "kind": "image",
+          "src": "assets/media/staten-island-2023-rooftop.webp",
+          "alt": "Staten Island rooftop drone session. Participants and equipment are shown in their field or teaching setting.",
+          "caption": "Participants and a marked landing pad on a rooftop during the December 2, 2023 Staten Island field session. Individual roles are not assigned from the photograph.",
+          "credit": "CIESIN · SDEV4650 · Community partners",
+          "sourceUrl": "https://kyttmacmanus.github.io/drones-helping-people-preview/communities.html#staten-island",
+          "sourceTitle": "Drones Helping People · project portfolio",
+          "width": 1200,
+          "height": 1600,
+          "rights": "institutional_archive_approved"
+        }
+      ]
     },
     {
       "id": "school-award-2023",
@@ -475,6 +604,15 @@
           "title": "New Mapper Opens Up Access to Flood Planning in New York State",
           "url": "https://news.climate.columbia.edu/2023/05/18/new-mapper-opens-up-access-to-flood-planning-in-new-york-state/"
         }
+      ],
+      "media": [
+        {
+          "id": "news-nys-flood-2023",
+          "kind": "article",
+          "url": "https://news.climate.columbia.edu/2023/05/18/new-mapper-opens-up-access-to-flood-planning-in-new-york-state/",
+          "title": "Explore the flood mapper and Newburgh example",
+          "caption": "View the original illustrated story and its credits."
+        }
       ]
     },
     {
@@ -496,6 +634,22 @@
         {
           "title": "SEDAC Open Science Workshop January 9, 2024",
           "url": "https://zenodo.org/records/10523525"
+        }
+      ],
+      "media": [
+        {
+          "id": "sedac-workshop-recording",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=apinEk9PM_4",
+          "title": "Watch the SEDAC Open Science Workshop",
+          "caption": "January 9, 2024 · workshop presenters and creators. The archive provides English and Spanish captions."
+        },
+        {
+          "id": "sedac-workshop-slides",
+          "kind": "slides",
+          "url": "https://zenodo.org/records/10523525",
+          "title": "Open recordings, captions and slide decks",
+          "caption": "Reusable workshop materials · CC BY 4.0."
         }
       ]
     },
@@ -520,7 +674,22 @@
           "url": "https://news.climate.columbia.edu/2026/03/02/how-columbia-students-and-local-activists-are-co-creating-climate-justice/"
         }
       ],
-      "season": "fall"
+      "season": "fall",
+      "media": [
+        {
+          "id": "news-climate-justice-drone-2025",
+          "kind": "image",
+          "src": "assets/media/news-climate-justice-drone-2025.webp",
+          "alt": "Students during a Lamont-Doherty drone workshop led by Kytt MacManus and Greg Yetman, during the fall 2025 course.",
+          "caption": "Students during a Lamont-Doherty drone workshop led by Kytt MacManus and Greg Yetman, during the fall 2025 course.",
+          "credit": "Photo: Kytt MacManus · Columbia Climate School",
+          "sourceUrl": "https://news.climate.columbia.edu/2026/03/02/how-columbia-students-and-local-activists-are-co-creating-climate-justice/",
+          "sourceTitle": "How Columbia Students and Local Activists Are Co-Creating Climate Justice",
+          "width": 650,
+          "height": 488,
+          "rights": "author_owned"
+        }
+      ]
     },
     {
       "id": "eclip-award-2025",
@@ -568,6 +737,15 @@
           "title": "Kytt MacManus joins the Environmental Flow Physics Lab (EFPL) as the Applied Science Lead",
           "url": "https://www.civil.columbia.edu/news/kytt-macmanus-joins-environmental-flow-physics-lab-efpl-applied-science-lead"
         }
+      ],
+      "media": [
+        {
+          "id": "dhp-link-efpl-applied-science-2025",
+          "kind": "interactive",
+          "url": "https://kyttmacmanus.github.io/drones-helping-people-preview/explore.html#point-view",
+          "title": "Rotate a Lamont photogrammetric surface sample",
+          "caption": "Related EFPL research display: a photogrammetric surface sample, distinct from a LiDAR survey or validated wind model."
+        }
       ]
     },
     {
@@ -589,6 +767,28 @@
         {
           "title": "Drones Helping People · project portfolio",
           "url": "https://kyttmacmanus.github.io/drones-helping-people-preview/teaching.html#teaching-william-paterson"
+        }
+      ],
+      "media": [
+        {
+          "id": "v5-wpu-group-visible",
+          "kind": "image",
+          "src": "assets/media/v5-wpu-group-visible.webp",
+          "alt": "Workshop participants gathered on grass at William Paterson University.",
+          "caption": "The workshop group at William Paterson University in the visible-light camera frame.",
+          "credit": "Columbia University / EFPL · workshop camera archive",
+          "sourceUrl": "https://kyttmacmanus.github.io/drones-helping-people-preview/teaching.html#teaching-william-paterson",
+          "sourceTitle": "Drones Helping People · project portfolio",
+          "width": 1600,
+          "height": 1200,
+          "rights": "institutional_archive_approved"
+        },
+        {
+          "id": "dhp-link-william-paterson-2025",
+          "kind": "interactive",
+          "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e",
+          "title": "William Paterson tree-observation teaching map",
+          "caption": "Student tree observations and teaching products from the workshop."
         }
       ]
     },
@@ -612,6 +812,34 @@
           "title": "Drones Helping People · project portfolio",
           "url": "https://kyttmacmanus.github.io/drones-helping-people-preview/explore.html?place=Four%20Sparrow%20Marsh#catalog"
         }
+      ],
+      "media": [
+        {
+          "id": "archive-four-sparrow-april-field",
+          "kind": "image",
+          "src": "assets/media/archive-four-sparrow-april-field.webp",
+          "alt": "Four Sparrow Marsh field conditions. Participants and equipment are shown in their field or teaching setting.",
+          "caption": "Field staff and marsh context in the April 18, 2025 Four Sparrow Marsh fieldwork presentation, which documents wind-related limits on acquisition.",
+          "credit": "EFPL · Columbia University · Four Sparrow research archive",
+          "sourceUrl": "https://kyttmacmanus.github.io/drones-helping-people-preview/explore.html?place=Four%20Sparrow%20Marsh#catalog",
+          "sourceTitle": "Drones Helping People · project portfolio",
+          "width": 1600,
+          "height": 1200,
+          "rights": "institutional_archive_approved"
+        },
+        {
+          "id": "archive-four-sparrow-may-team",
+          "kind": "image",
+          "src": "assets/media/archive-four-sparrow-may-team.webp",
+          "alt": "Field collaborators standing beside the marsh during the Four Sparrow return survey.",
+          "caption": "The field team and landing pad at Four Sparrow Marsh during the May 2, 2025 return survey.",
+          "credit": "EFPL · Columbia University · Four Sparrow research archive",
+          "sourceUrl": "https://kyttmacmanus.github.io/drones-helping-people-preview/explore.html?place=Four%20Sparrow%20Marsh#catalog",
+          "sourceTitle": "Drones Helping People · project portfolio",
+          "width": 1600,
+          "height": 1199,
+          "rights": "institutional_archive_approved"
+        }
       ]
     },
     {
@@ -633,6 +861,41 @@
         {
           "title": "Drones Helping People · project portfolio",
           "url": "https://kyttmacmanus.github.io/drones-helping-people-preview/communities.html#staten-island"
+        }
+      ],
+      "media": [
+        {
+          "id": "northshore-community",
+          "kind": "image",
+          "src": "assets/media/northshore-community.webp",
+          "alt": "Community fieldwork on the North Shore. Participants and equipment are shown in their field or teaching setting.",
+          "caption": "Participants gather along the North Shore waterfront during the December 2025 fieldwork.",
+          "credit": "Greg Yetman / Columbia field-mapping archive",
+          "sourceUrl": "https://kyttmacmanus.github.io/drones-helping-people-preview/communities.html#staten-island",
+          "sourceTitle": "Drones Helping People · project portfolio",
+          "width": 960,
+          "height": 1280,
+          "rights": "institutional_archive_approved"
+        },
+        {
+          "id": "northshore-controller-session",
+          "kind": "image",
+          "src": "assets/media/northshore-controller-session.webp",
+          "alt": "Collaborators using a handheld drone controller during North Shore fieldwork.",
+          "caption": "A participant holds a controller while others observe along the waterfront path.",
+          "credit": "EFPL · SDEV4650 · Staten Island community partners",
+          "sourceUrl": "https://kyttmacmanus.github.io/drones-helping-people-preview/communities.html#staten-island",
+          "sourceTitle": "Drones Helping People · project portfolio",
+          "width": 960,
+          "height": 1280,
+          "rights": "institutional_archive_approved"
+        },
+        {
+          "id": "dhp-link-north-shore-2025",
+          "kind": "interactive",
+          "url": "https://kyttmacmanus.github.io/drones-helping-people-preview/explore.html#compare",
+          "title": "Compare aerial imagery and elevation products",
+          "caption": "Explore imagery and elevation products in the related project portfolio."
         }
       ]
     },
@@ -656,6 +919,21 @@
           "title": "Drones Helping People · project portfolio",
           "url": "https://kyttmacmanus.github.io/drones-helping-people-preview/explore.html?place=Morningside%20Park#catalog"
         }
+      ],
+      "media": [
+        {
+          "id": "archive-morningside-team",
+          "kind": "image",
+          "src": "assets/media/archive-morningside-team.webp",
+          "alt": "Morningside field operation. Participants and equipment are shown in their field or teaching setting.",
+          "caption": "Field crew and aircraft at the basketball-court operation area during the December 2025 Morningside Park survey.",
+          "credit": "EFPL · Columbia University · Morningside field archive",
+          "sourceUrl": "https://kyttmacmanus.github.io/drones-helping-people-preview/explore.html?place=Morningside%20Park#catalog",
+          "sourceTitle": "Drones Helping People · project portfolio",
+          "width": 1600,
+          "height": 1200,
+          "rights": "institutional_archive_approved"
+        }
       ]
     },
     {
@@ -677,6 +955,15 @@
         {
           "title": "CIESIN staff develop open science curriculum for NASA remote sensing data analysis",
           "url": "https://ciesin.columbia.edu/news/ciesin-staff-develop-open-science-curriculum-nasa-remote-sensing-data-analysis"
+        }
+      ],
+      "media": [
+        {
+          "id": "dhp-link-school-lessons-2026",
+          "kind": "interactive",
+          "url": "https://topstschool.org/modules.html",
+          "title": "Explore TOPSTSCHOOL open-science modules",
+          "caption": "Open lessons from the wider SCHOOL project."
         }
       ]
     },
@@ -700,6 +987,21 @@
           "title": "Drones Helping People · project portfolio",
           "url": "https://kyttmacmanus.github.io/drones-helping-people-preview/teaching.html#teaching-hemlock-hill"
         }
+      ],
+      "media": [
+        {
+          "id": "v5-hemlock-field-team",
+          "kind": "image",
+          "src": "assets/media/v5-hemlock-field-team.webp",
+          "alt": "Paired camera views of the Hemlock field group and equipment on a grass field; no farm buildings are shown.",
+          "caption": "Participants and field equipment are visible in an overhead paired-camera frame from the April 15, 2026 field session. The display retains the source camera colors.",
+          "credit": "Columbia University / EFPL · project camera archive",
+          "sourceUrl": "https://kyttmacmanus.github.io/drones-helping-people-preview/teaching.html#teaching-hemlock-hill",
+          "sourceTitle": "Drones Helping People · project portfolio",
+          "width": 1600,
+          "height": 1067,
+          "rights": "institutional_archive_approved"
+        }
       ]
     },
     {
@@ -722,6 +1024,41 @@
           "title": "Drones Helping People · project portfolio",
           "url": "https://kyttmacmanus.github.io/drones-helping-people-preview/teaching.html#unza"
         }
+      ],
+      "media": [
+        {
+          "id": "archive-unza-working-session",
+          "kind": "image",
+          "src": "assets/media/archive-unza-working-session.webp",
+          "alt": "Collaborators seated around a meeting table during the UNZA technical exchange.",
+          "caption": "Collaborators work around a shared table in the UNZA project photograph collection from June 2026.",
+          "credit": "University of Zambia / EFPL / CIESIN · Columbia University",
+          "sourceUrl": "https://kyttmacmanus.github.io/drones-helping-people-preview/teaching.html#unza",
+          "sourceTitle": "Drones Helping People · project portfolio",
+          "width": 1280,
+          "height": 960,
+          "rights": "institutional_archive_approved"
+        },
+        {
+          "id": "archive-unza-field-team",
+          "kind": "image",
+          "src": "assets/media/archive-unza-field-team.webp",
+          "alt": "Field collaborators standing together outdoors during the Zambia exchange.",
+          "caption": "Field collaborators during the June 2026 Zambia exchange, from the UNZA project photograph collection.",
+          "credit": "University of Zambia / EFPL / CIESIN · Columbia University",
+          "sourceUrl": "https://kyttmacmanus.github.io/drones-helping-people-preview/teaching.html#unza",
+          "sourceTitle": "Drones Helping People · project portfolio",
+          "width": 1600,
+          "height": 1204,
+          "rights": "institutional_archive_approved"
+        },
+        {
+          "id": "dhp-link-unza-exchange-2026",
+          "kind": "interactive",
+          "url": "https://kyttmacmanus.github.io/drones-helping-people-preview/explore.html?plate=v6-unza-mesh#catalog",
+          "title": "View the UNZA campus-site reconstruction",
+          "caption": "A public display of a selected-site reconstruction; the original hosted viewer may require an account."
+        }
       ]
     },
     {
@@ -743,6 +1080,34 @@
         {
           "title": "Drones Helping People · project portfolio",
           "url": "https://kyttmacmanus.github.io/drones-helping-people-preview/communities.html#mtukuzi"
+        }
+      ],
+      "media": [
+        {
+          "id": "zm-team",
+          "kind": "image",
+          "src": "assets/media/zm-team.webp",
+          "alt": "Local and university field collaborators standing together beside a cultivated field near Mtukuzi.",
+          "caption": "Field team and local partners during the June 13, 2026 visit.",
+          "credit": "EFPL + CIESIN · UNZA colleagues",
+          "sourceUrl": "https://kyttmacmanus.github.io/drones-helping-people-preview/communities.html#mtukuzi",
+          "sourceTitle": "Drones Helping People · project portfolio",
+          "width": 1600,
+          "height": 1205,
+          "rights": "institutional_archive_approved"
+        },
+        {
+          "id": "zm-village-map",
+          "kind": "image",
+          "src": "assets/media/zm-village-map.webp",
+          "alt": "Orthomosaic of selected village and school-area buildings, paths, vegetation and cultivated land near Mtukuzi.",
+          "caption": "An overhead composite of selected village and school areas; selected-site coverage only.",
+          "credit": "EFPL + CIESIN · UNZA colleagues",
+          "sourceUrl": "https://kyttmacmanus.github.io/drones-helping-people-preview/communities.html#mtukuzi",
+          "sourceTitle": "Drones Helping People · project portfolio",
+          "width": 1927,
+          "height": 1700,
+          "rights": "institutional_archive_approved"
         }
       ]
     },

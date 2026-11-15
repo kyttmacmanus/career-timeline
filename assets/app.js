@@ -20,7 +20,16 @@
   const themes = [...new Set(milestones.flatMap(item => item.themes || []))].sort((a,b) => label(a).localeCompare(label(b)));
   const years = [...new Set(milestones.map(item => item.date.slice(0,4)))].sort().reverse();
   const hasFeatured = milestones.some(item => item.featured);
+  const hasMedia = milestones.some(item => (item.media || []).length);
   const defaultView = hasFeatured ? 'featured' : 'all';
+  if (hasMedia) {
+    const mediaButton = document.createElement('button');
+    mediaButton.type = 'button';
+    mediaButton.dataset.view = 'media';
+    mediaButton.setAttribute('aria-pressed', 'false');
+    mediaButton.textContent = 'With media';
+    document.querySelector('.view-switch').append(mediaButton);
+  }
   // Seasons position year-level records relative to other work in that year.
   // The inferred ordering month is never presented as an event date.
   function chronologicalKey(item) {
@@ -48,7 +57,7 @@
       q: params.get('q') || '',
       theme: themes.includes(params.get('theme')) ? params.get('theme') : 'all',
       year: years.includes(params.get('year')) ? params.get('year') : 'all',
-      view: ['featured','all'].includes(params.get('view')) ? params.get('view') : defaultView,
+      view: ['featured','all','media'].includes(params.get('view')) ? params.get('view') : defaultView,
       sort: params.get('sort') === 'newest' ? 'newest' : 'oldest'
     };
   }
@@ -63,17 +72,39 @@
     history.replaceState(null,'',url);
   }
   function safeUrl(value) {
+    if (typeof value !== 'string' || !value.trim()) return null;
     try {
       const url = new URL(value,location.href);
       return ['https:','http:'].includes(url.protocol) ? url.href : null;
     } catch { return null; }
+  }
+  function safeImage(value) {
+    return typeof value === 'string' && /^assets\/media\/[a-z0-9][a-z0-9._-]*\.(webp|jpg|jpeg|png)$/i.test(value) ? value : null;
+  }
+  function renderCredit(media) {
+    const license = safeUrl(media.licenseUrl);
+    const rights = license ? ` · <a href="${escape(license)}" rel="noopener">${escape(media.rightsLabel || 'Reuse license')}</a>` : media.rightsLabel ? ` · ${escape(media.rightsLabel)}` : '';
+    return `<span class="media-credit">${escape(media.credit)}${rights}</span>`;
+  }
+  function renderMedia(item) {
+    const figures = (item.media || []).map((media, index) => {
+      if (media.kind === 'image' && safeImage(media.src)) {
+        const source = safeUrl(media.sourceUrl);
+        return `<figure class="milestone-image"><a class="media-preview" href="${escape(media.src)}" data-image-open data-milestone-id="${escape(item.id)}" data-media-index="${index}" aria-label="Enlarge image: ${escape(media.alt)}"><img src="${escape(media.src)}" alt="${escape(media.alt)}" width="${Number(media.width)}" height="${Number(media.height)}" loading="lazy" decoding="async"><span class="media-enlarge" aria-hidden="true">Enlarge ↗</span></a><figcaption><span class="media-caption">${escape(media.caption)}</span>${renderCredit(media)}${source ? `<a class="media-source" href="${escape(source)}" rel="noopener">${escape(media.sourceTitle || 'Image source')} ↗</a>` : ''}</figcaption></figure>`;
+      }
+      const destination = safeUrl(media.url);
+      if (!destination || !['video','interactive','slides','article'].includes(media.kind)) return '';
+      const kindLabel = {video:'Watch video',interactive:'Explore interactive',slides:'View slides',article:'Read illustrated account'}[media.kind];
+      return `<div class="milestone-media-link"><span class="media-kind">${kindLabel}</span><a href="${escape(destination)}" rel="noopener">${escape(media.title)} <span aria-hidden="true">↗</span></a>${media.caption ? `<p>${escape(media.caption)}</p>` : ''}</div>`;
+    }).join('');
+    return figures ? `<div class="milestone-media">${figures}</div>` : '';
   }
   function renderItem(item) {
     const itemThemes = item.themes || [];
     const accent = itemThemes.map(theme => accents[theme]).find(Boolean) || '#006575';
     const sources = (item.sources || []).filter(source => safeUrl(source.url));
     const sourceList = sources.length ? `<p class="milestone-source-label">Explore the sources</p><ul class="milestone-sources">${sources.map(source => `<li><a href="${escape(safeUrl(source.url))}" rel="noopener">${escape(source.title || 'Read the source')} <span aria-hidden="true">↗</span></a></li>`).join('')}</ul>` : '<p class="milestone-context">Supporting records are retained with the career archive.</p>';
-    return `<li class="timeline-item" id="${escape(item.id)}" style="--card-accent:${accent}"><article class="milestone" aria-labelledby="title-${escape(item.id)}"><div class="milestone-date-line"><time class="milestone-date" datetime="${escape(item.date)}">${escape(item.dateLabel || item.date.slice(0,4))}</time><span class="milestone-kind">${escape(label(item.type || 'milestone'))}</span></div><h3 id="title-${escape(item.id)}"><a href="#${escape(item.id)}">${escape(item.title)}</a></h3><p class="milestone-summary">${escape(item.summary)}</p><div class="milestone-themes">${itemThemes.map(theme => `<span class="theme-label">${escape(label(theme))}</span>`).join('')}${item.status && item.status !== 'completed' ? `<span class="status-label">${escape(label(item.status))}</span>` : ''}</div><details><summary>Contribution &amp; sources<span class="sr-only">: ${escape(item.title)}</span></summary>${item.role ? `<p class="milestone-role"><strong>Kytt’s contribution</strong>${escape(item.role)}</p>` : ''}${item.detail ? `<p class="milestone-context">${escape(item.detail)}</p>` : ''}${sourceList}<a class="permalink" href="#${escape(item.id)}">Link to this milestone <span aria-hidden="true">↗</span></a></details></article></li>`;
+    return `<li class="timeline-item" id="${escape(item.id)}" style="--card-accent:${accent}"><article class="milestone" aria-labelledby="title-${escape(item.id)}"><div class="milestone-date-line"><time class="milestone-date" datetime="${escape(item.date)}">${escape(item.dateLabel || item.date.slice(0,4))}</time><span class="milestone-kind">${escape(label(item.type || 'milestone'))}</span></div><h3 id="title-${escape(item.id)}"><a href="#${escape(item.id)}">${escape(item.title)}</a></h3>${renderMedia(item)}<p class="milestone-summary">${escape(item.summary)}</p><div class="milestone-themes">${itemThemes.map(theme => `<span class="theme-label">${escape(label(theme))}</span>`).join('')}${item.status && item.status !== 'completed' ? `<span class="status-label">${escape(label(item.status))}</span>` : ''}</div><details><summary>Contribution &amp; sources<span class="sr-only">: ${escape(item.title)}</span></summary>${item.role ? `<p class="milestone-role"><strong>Kytt’s contribution</strong>${escape(item.role)}</p>` : ''}${item.detail ? `<p class="milestone-context">${escape(item.detail)}</p>` : ''}${sourceList}<a class="permalink" href="#${escape(item.id)}">Link to this milestone <span aria-hidden="true">↗</span></a></details></article></li>`;
   }
   function render(syncUrl = true) {
     el('timeline-search').value = state.q;
@@ -84,10 +115,11 @@
     const query = state.q.trim().toLocaleLowerCase();
     const filtered = milestones.filter(item => {
       if (state.view === 'featured' && !item.featured) return false;
+      if (state.view === 'media' && !(item.media || []).length) return false;
       if (state.theme !== 'all' && !(item.themes || []).includes(state.theme)) return false;
       if (state.year !== 'all' && !item.date.startsWith(state.year)) return false;
       if (!query) return true;
-      return [item.title,item.summary,item.role,item.detail,item.dateLabel,item.type,...(item.themes || []).map(label),...(item.sources || []).map(source => source.title)].filter(Boolean).join(' ').toLocaleLowerCase().includes(query);
+      return [item.title,item.summary,item.role,item.detail,item.dateLabel,item.type,...(item.themes || []).map(label),...(item.sources || []).map(source => source.title),...(item.media || []).flatMap(media => [media.title,media.alt,media.caption,media.credit])].filter(Boolean).join(' ').toLocaleLowerCase().includes(query);
     }).sort((a,b) => {
       const order = chronologicalKey(a).localeCompare(chronologicalKey(b)) || a.title.localeCompare(b.title);
       return state.sort === 'newest' ? -order : order;
@@ -95,7 +127,7 @@
     el('timeline-list').innerHTML = filtered.map(renderItem).join('');
     el('timeline-list').hidden = filtered.length === 0;
     el('empty-state').hidden = filtered.length !== 0;
-    const descriptor = state.view === 'featured' ? 'selected milestones' : 'milestones';
+    const descriptor = state.view === 'featured' ? 'selected milestones' : state.view === 'media' ? 'milestones with media' : 'milestones';
     el('result-count').textContent = `Showing ${filtered.length} ${descriptor}${state.year !== 'all' ? ` · ${state.year}` : ''}${state.theme !== 'all' ? ` · ${label(state.theme)}` : ''}${query ? ` · matching “${state.q.trim()}”` : ''}`;
     if (syncUrl) updateUrl();
   }
@@ -117,6 +149,34 @@
     state = {q:'',theme:'all',year:'all',view:full ? 'all' : defaultView,sort:'oldest'};
     render();
   }
+  const imageDialog = document.createElement('dialog');
+  imageDialog.className = 'media-dialog';
+  imageDialog.setAttribute('aria-labelledby', 'media-dialog-title');
+  imageDialog.innerHTML = '<div class="media-dialog-inner"><div class="media-dialog-top"><h2 id="media-dialog-title">Photo and context</h2><button class="media-dialog-close" type="button" autofocus aria-label="Close enlarged image">Close ×</button></div><figure><img alt=""><figcaption></figcaption></figure></div>';
+  document.body.append(imageDialog);
+  let imageOpener = null;
+  imageDialog.querySelector('.media-dialog-close').addEventListener('click', () => imageDialog.close());
+  imageDialog.addEventListener('click', event => { if (event.target === imageDialog) imageDialog.close(); });
+  imageDialog.addEventListener('close', () => {
+    imageDialog.querySelector('img').removeAttribute('src');
+    if (imageOpener && imageOpener.isConnected) imageOpener.focus({preventScroll:true});
+  });
+  el('timeline-list').addEventListener('click', event => {
+    const opener = event.target.closest('[data-image-open]');
+    if (!opener || typeof imageDialog.showModal !== 'function') return;
+    const item = byId.get(opener.dataset.milestoneId);
+    const media = item && (item.media || [])[Number(opener.dataset.mediaIndex)];
+    if (!media || media.kind !== 'image' || !safeImage(media.src)) return;
+    event.preventDefault();
+    imageOpener = opener;
+    const image = imageDialog.querySelector('img');
+    image.src = media.src;
+    image.alt = media.alt;
+    el('media-dialog-title').textContent = item.title;
+    const source = safeUrl(media.sourceUrl);
+    imageDialog.querySelector('figcaption').innerHTML = `<span class="media-caption">${escape(media.caption)}</span>${renderCredit(media)}${source ? `<a href="${escape(source)}" rel="noopener">${escape(media.sourceTitle || 'Image source')} ↗</a>` : ''}`;
+    imageDialog.showModal();
+  });
   document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click',() => {state.view=button.dataset.view; render();}));
   themeGroup.addEventListener('click',event => {const button=event.target.closest('[data-theme]');if(button){state.theme=button.dataset.theme;render();}});
   let debounce;
