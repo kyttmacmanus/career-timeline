@@ -376,3 +376,9 @@ h1{font-size:43px}
 .media-credit a{display:inline-block;min-height:24px;padding-block:3px}
 .hero-field figcaption a,.hero-grid figcaption a{display:block;min-height:24px;padding-block:3px}
 @media(max-width:760px){.select-controls{flex-wrap:wrap;row-gap:10px}.select-controls label{min-width:0}.footer p{font-size:11px}.media-dialog .media-credit{font-size:12px}.media-dialog figcaption>a{font-size:12px;display:inline-block;min-height:24px;padding-block:3px}}
+
+/* Original personal identity */
+.identity-logo{display:block;width:48px;height:48px;flex:none}
+.footer-name{display:inline-flex;align-items:center;gap:10px}
+.footer-name img{display:block;width:32px;height:32px;flex:none}
+@media(max-width:360px){.identity-logo{width:38px;height:38px}.identity{gap:9px}}

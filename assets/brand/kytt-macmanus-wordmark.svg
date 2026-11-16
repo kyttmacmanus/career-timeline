@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610 112" role="img" aria-labelledby="title desc">
+<title id="title">Kytt MacManus</title><desc id="desc">Kytt MacManus. Geospatial science, fieldwork and teaching.</desc>
+<g transform="translate(0 8)">
+
+  <path d="M9 29V9h20M67 87h20V67" fill="none" stroke="#9db9c1" stroke-width="2"/>
+  <path d="M19 23v49M42 23 19 47l23 25M53 72V23l15 22 15-22v49" fill="none" stroke="#182c38" stroke-width="6.5" stroke-linejoin="miter" stroke-linecap="square"/>
+  <circle cx="68" cy="45" r="4.3" fill="#007f91"/>
+</g>
+<text x="122" y="57" fill="#182c38" font-family="Segoe UI,Arial,sans-serif" font-size="38" font-weight="650" letter-spacing="-1.1">Kytt MacManus</text>
+<text x="124" y="84" fill="#006575" font-family="Segoe UI,Arial,sans-serif" font-size="16" letter-spacing=".7">Geospatial science · Fieldwork · Teaching</text>
+</svg>

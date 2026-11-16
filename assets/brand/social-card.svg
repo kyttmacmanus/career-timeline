@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Kytt MacManus — Career timeline</title>
+<desc id="desc">From global data to work on the ground. Research, geospatial tools, teaching and fieldwork.</desc>
+<rect width="1200" height="630" fill="#182c38"/>
+<path d="M80 136H1120M80 505H1120" fill="none" stroke="#405b69"/>
+<g transform="translate(76 39) scale(.75)">
+
+  <path d="M9 29V9h20M67 87h20V67" fill="none" stroke="#7598a7" stroke-width="2"/>
+  <path d="M19 23v49M42 23 19 47l23 25M53 72V23l15 22 15-22v49" fill="none" stroke="#ffffff" stroke-width="6.5" stroke-linejoin="miter" stroke-linecap="square"/>
+  <circle cx="68" cy="45" r="4.3" fill="#67d2db"/>
+</g>
+<text x="170" y="93" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="37" font-weight="650">Kytt MacManus</text>
+<text x="1120" y="88" text-anchor="end" fill="#9bd5dc" font-family="Segoe UI,Arial,sans-serif" font-size="20" letter-spacing="2">CAREER TIMELINE</text>
+<text x="80" y="244" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="72" font-weight="600" letter-spacing="-2">From global data</text>
+<text x="80" y="335" fill="#98e0e6" font-family="Georgia,serif" font-size="72" font-style="italic" letter-spacing="-1">to work on the ground.</text>
+<text x="83" y="437" fill="#e0ebf0" font-family="Segoe UI,Arial,sans-serif" font-size="27">Research · Geospatial tools · Teaching · Fieldwork</text>
+<text x="83" y="557" fill="#b3cad5" font-family="Segoe UI,Arial,sans-serif" font-size="24">kyttmacmanus.github.io/career-timeline</text>
+<path d="M1042 540h64v-64M1106 540l-89-89" fill="none" stroke="#67d2db" stroke-width="3"/>
+</svg>

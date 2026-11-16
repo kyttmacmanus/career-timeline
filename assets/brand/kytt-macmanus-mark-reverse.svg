@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Kytt MacManus monogram</title>
+  <desc id="desc">Geometric K and M letterforms with a teal point and coordinate corners.</desc>
+
+  <path d="M9 29V9h20M67 87h20V67" fill="none" stroke="#7598a7" stroke-width="2"/>
+  <path d="M19 23v49M42 23 19 47l23 25M53 72V23l15 22 15-22v49" fill="none" stroke="#ffffff" stroke-width="6.5" stroke-linejoin="miter" stroke-linecap="square"/>
+  <circle cx="68" cy="45" r="4.3" fill="#67d2db"/>
+</svg>

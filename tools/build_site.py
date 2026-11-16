@@ -9,6 +9,7 @@ import argparse
 import html
 import json
 import re
+import runpy
 import shutil
 from datetime import date
 from pathlib import Path
@@ -136,6 +137,8 @@ def main():
     payload = json.dumps(data, ensure_ascii=False, indent=2).replace("</", "<\\/")
     (ROOT / "assets/milestones.js").write_text("window.CAREER_DATA = " + payload + ";\n", encoding="utf-8")
     page = (ROOT / "index.html").read_text(encoding="utf-8")
+    metadata = runpy.run_path(str(ROOT / "tools/site_metadata.py"))
+    page = metadata["apply_metadata"](page, data, ROOT)
     page = re.sub(r'(<dd id="milestone-total">).*?(</dd>)', lambda m: m[1] + str(summary["milestones"]) + m[2], page)
     page = re.sub(r'(<dd id="year-span">).*?(</dd>)', lambda m: m[1] + summary["first_year"] + "\u2013" + summary["last_year"] + m[2], page)
     assert "<!-- TIMELINE_STATIC_START -->" in page and "<!-- TIMELINE_STATIC_END -->" in page
@@ -152,7 +155,7 @@ def main():
         (dest / "assets").mkdir(exist_ok=True)
         for name in ASSETS:
             shutil.copy2(ROOT / "assets" / name, dest / "assets" / name)
-        for relative in LICENSE_NOTICES:
+        for relative in (*LICENSE_NOTICES, *metadata["METADATA_ASSETS"]):
             target = dest / relative
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(ROOT / relative, target)

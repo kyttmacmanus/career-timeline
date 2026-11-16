@@ -54,3 +54,11 @@ To add media, extend an entry's `media` array with an approved local image or a 
 The sedacR worked-example documentation retains its [complete MIT license notice](assets/licenses/sedacr-MIT.txt).
 
 The design uses original project imagery, larger reading text, summaries before media and grouped image galleries. Previous `?view=media` links continue to open all milestones.
+
+## Identity and sharing
+
+The original KM mark appears in the header, footer and browser icon. Reusable vector and transparent PNG versions, a wordmark and a 1200 × 630 sharing card are in `assets/brand/`. These are personal identity graphics; they do not represent a university or project endorsement.
+
+Edit `content/site.json` for the public title, description, canonical URL, topics and sharing card, then rebuild. The build writes the metadata into the initial HTML, including image dimensions and descriptions, and generates `sitemap.xml`. It also creates a ProfilePage with a Person and a list of the actual milestones. Filters and milestone fragments share the main page's canonical URL.
+
+Update `canonicalUrl` when moving the site to another domain. Project-level icons work in browsers and on Apple devices; Google's search favicon and site-name rules apply at the hostname level. This project does not control the root of `kyttmacmanus.github.io`. Sharing previews and search updates depend on each service's crawl and cache.

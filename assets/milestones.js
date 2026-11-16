@@ -189,6 +189,66 @@ window.CAREER_DATA = {
       ]
     },
     {
+      "id": "open-urban-typologies-workflow-2026",
+      "date": "2026-08",
+      "datePrecision": "month",
+      "dateLabel": "August 2026",
+      "title": "Built an open workflow for mapping city neighbourhoods",
+      "summary": "Developed a reproducible 100-metre workflow that combines open Earth-observation data to describe neighbourhoods by their buildings, land cover and population. The initial reference used Lusaka, Madrid and New York City, with Milan as a transferability test. City reports are available through the European Commission’s Joint Research Centre.",
+      "role": "Developed the neighbourhood-classification method, Python workflow, pilot data and visual reports for the GEO Human Planet expert studies.",
+      "themes": [
+        "Population & data",
+        "Open science"
+      ],
+      "type": "Research tool",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "Open Urban Typologies: Lusaka city report",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/open_urban_typologies/reports/lusaka/"
+        },
+        {
+          "title": "JRC Open Urban Typologies reports and data",
+          "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/open_urban_typologies/"
+        },
+        {
+          "title": "GEO Human Planet Initiative",
+          "url": "https://earthobservations.org/groups/geo-human-planet"
+        }
+      ],
+      "media": [
+        {
+          "id": "open-urban-typologies-lusaka-input-2026",
+          "kind": "image",
+          "src": "assets/media/open-urban-typologies-lusaka-input-2026.webp",
+          "alt": "Blue map showing the share of land covered by buildings in 100-metre cells across Lusaka.",
+          "caption": "Lusaka’s built-up surface is one of the open-data inputs to the neighbourhood-classification workflow. Source data: GHS-BUILT-S R2023A, 2020.",
+          "credit": "European Union / European Commission Joint Research Centre, 2026. CC BY 4.0.",
+          "sourceUrl": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/open_urban_typologies/reports/lusaka/figures/variables/01_built_up_surface_share.png",
+          "sourceTitle": "Open Urban Typologies: Lusaka built-up surface",
+          "width": 1551,
+          "height": 1237,
+          "rights": "license_permits_reuse",
+          "licenseUrl": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/open_urban_typologies/copyright.txt"
+        },
+        {
+          "id": "open-urban-typologies-lusaka-classes-2026",
+          "kind": "image",
+          "src": "assets/media/open-urban-typologies-lusaka-classes-2026.webp",
+          "alt": "Map of Lusaka showing built-up surface classified using a common reference from Lusaka, Madrid and New York City.",
+          "caption": "The same Lusaka input classified with the workflow’s shared reference thresholds. “Global” refers to this common reference, based here on three pilot cities.",
+          "credit": "European Union / European Commission Joint Research Centre, 2026. CC BY 4.0.",
+          "sourceUrl": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/open_urban_typologies/reports/lusaka/figures/local_global/01_built_up_surface_share_global.png",
+          "sourceTitle": "Open Urban Typologies: Lusaka classification",
+          "width": 1332,
+          "height": 1260,
+          "rights": "license_permits_reuse",
+          "licenseUrl": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/open_urban_typologies/copyright.txt"
+        }
+      ]
+    },
+    {
       "id": "gil-flood-resilience-award-2026",
       "date": "2026-07-10",
       "datePrecision": "day",
@@ -1129,6 +1189,94 @@ window.CAREER_DATA = {
       ]
     },
     {
+      "id": "amerigeo-water-workshop-2024",
+      "date": "2024-08-01",
+      "datePrecision": "day",
+      "dateLabel": "August 1, 2024",
+      "title": "Co-facilitated open flood-risk training for the Americas",
+      "summary": "Co-facilitated a Spanish-language AmeriGEO workshop for more than 100 participants. Using Ecuador as a case study, participants combined open Earth-observation and socioeconomic data to explore vulnerability to flooding and landslides.",
+      "role": "Co-facilitated with Juan F. Martinez, who led the live analysis, and coordinated access to the shared computing environment with 2i2c.",
+      "themes": [
+        "Teaching",
+        "Open science"
+      ],
+      "type": "Workshop",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "2i2c: AmeriGEO workshop and the shared computing environment",
+          "url": "https://2i2c.org/blog/amerigeo-workshop/"
+        },
+        {
+          "title": "AmeriGEO short course: original slides and learning resources",
+          "url": "https://zenodo.org/records/13350477"
+        },
+        {
+          "title": "Spanish-language flood-vulnerability lesson",
+          "url": "https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/amerigeo-inundaciones-vulnerabilidad.html"
+        }
+      ],
+      "media": [
+        {
+          "id": "amerigeo-rstudio-workshop-2024",
+          "kind": "image",
+          "src": "assets/media/amerigeo-rstudio-workshop-2024.webp",
+          "alt": "RStudio environment displaying reproducible water-data analysis code and a series of monthly California maps.",
+          "caption": "The workshop slides introduced the shared RStudio environment with this water-data example. The live flood-risk exercises focused on Ecuador.",
+          "credit": "Juan F. Martinez and Kytt MacManus / CIESIN, Columbia University. CC BY 4.0.",
+          "sourceUrl": "https://zenodo.org/records/13350477",
+          "sourceTitle": "Original AmeriGEO flood and vulnerability workshop slides",
+          "width": 2500,
+          "height": 1440,
+          "rights": "license_permits_reuse",
+          "licenseUrl": "https://zenodo.org/records/13350477"
+        },
+        {
+          "id": "amerigeo-2024-workshop-resources",
+          "kind": "slides",
+          "url": "https://zenodo.org/records/13350477",
+          "title": "Explore the original workshop materials",
+          "caption": "Original Spanish-language slides, course guide and agenda, with a link to the workshop recording."
+        }
+      ]
+    },
+    {
+      "id": "school-aag-panel-2024",
+      "date": "2024-04-17",
+      "datePrecision": "day",
+      "dateLabel": "April 17, 2024",
+      "title": "Convened an AAG panel on open-science learning",
+      "summary": "Convened a panel at the American Association of Geographers annual meeting in Honolulu to help shape SCHOOL learning modules on health, air quality and environmental justice. The session connected researchers and educators around practical uses of open science.",
+      "role": "Primary organizer and session chair, co-convening the panel with Linda Pistolesi. Also presented lessons from developing the SCHOOL curriculum at the same annual meeting.",
+      "themes": [
+        "Teaching",
+        "Open science"
+      ],
+      "type": "Conference session",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "AAG 2024 official program: SCHOOL panel",
+          "url": "https://www.aag.org/wp-content/uploads/2024/04/AAG-2024-PDF-program-FINAL.pdf#page=253"
+        },
+        {
+          "title": "AAG 2024 SCHOOL panel session",
+          "url": "https://aag.secure-platform.com/aag2024/solicitations/57/sessiongallery/7384"
+        }
+      ],
+      "media": [
+        {
+          "id": "school-aag-panel-gallery-2024",
+          "kind": "gallery",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02D61vJXHYKboE6uZVfHHXn5C5vcW3yxqay1vtb5GCtoUNofz3NQukFUaBKFWf2AP1l&id=100011439767601",
+          "title": "See photographs from the AAG session",
+          "caption": "Public Facebook gallery from the SCHOOL panel (Facebook may ask visitors to sign in)."
+        }
+      ]
+    },
+    {
       "id": "human-planet-co-lead-2024",
       "date": "2024-03",
       "datePrecision": "month",
@@ -1540,6 +1688,51 @@ window.CAREER_DATA = {
       ]
     },
     {
+      "id": "colombia-geospatial-training-2023",
+      "date": "2023",
+      "datePrecision": "year",
+      "dateLabel": "2023",
+      "title": "Helped deliver bilingual geospatial training for Colombian students",
+      "summary": "Helped organize a Human Planet training programme for students at Universidad Distrital Francisco José de Caldas in Bogotá. Weekly lessons covered programming, GIS, remote sensing, spatial statistics and drone mapping; the programme concluded with student presentations during AmeriGEO 2023.",
+      "role": "Helped plan the programme, prepare teaching resources and coordinate a drone-mapping session with Andrea Gaughan and CIESIN colleagues.",
+      "themes": [
+        "Teaching",
+        "Field methods"
+      ],
+      "type": "Training",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "CIESIN: bilingual education through the NASA Human Planet project",
+          "url": "https://ciesin.columbia.edu/sites/ciesin.columbia.edu/files/content/CIESIN-cap-statement-Sept2024.pdf#page=8"
+        }
+      ],
+      "media": [
+        {
+          "id": "colombia-training-original-savanna-case-study-2022",
+          "kind": "image",
+          "src": "assets/media/colombia-training-original-savanna-case-study-2022.webp",
+          "alt": "Drone imagery of a Botswana savanna site appears below three methods for classifying the site's vegetation.",
+          "caption": "A resource shared for the drone session: Gaughan and colleagues' original Botswana savanna study compares drone imagery with three vegetation-classification methods. The research images are from Botswana, rather than the Colombian training location.",
+          "credit": "Andrea E. Gaughan and colleagues, Remote Sensing 14, 551 (2022), Figure 4(c). CC BY 4.0.",
+          "sourceUrl": "https://doi.org/10.3390/rs14030551",
+          "sourceTitle": "Drone-training resource: original savanna classification maps",
+          "width": 1241,
+          "height": 906,
+          "rights": "cc_by",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "id": "colombia-training-original-drone-case-study",
+          "kind": "document",
+          "url": "https://repository.library.noaa.gov/view/noaa/51907/noaa_51907_DS1.pdf#page=11",
+          "title": "Explore a drone-mapping resource shared for the training",
+          "caption": "Andrea Gaughan and colleagues' open-access study illustrates drone-based vegetation mapping in Botswana, one of the research resources shared while preparing the Colombia training."
+        }
+      ]
+    },
+    {
       "id": "grdi-development-support-2022",
       "date": "2022-11-04",
       "datePrecision": "day",
@@ -1581,6 +1774,40 @@ window.CAREER_DATA = {
           "height": 791,
           "rights": "cc_by",
           "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "id": "liberty-zoning-board-member-2022",
+      "date": "2022-06-06",
+      "datePrecision": "day",
+      "dateLabel": "June 6, 2022",
+      "title": "Appointed to full membership on Liberty's Zoning Board of Appeals",
+      "summary": "Moved from alternate to full membership on the Town of Liberty's Zoning Board of Appeals. The appointment filled an unexpired term scheduled to end in December 2026; the board reviews zoning appeals and variance applications.",
+      "role": "Zoning Board of Appeals member, appointed by the Town Board.",
+      "themes": [
+        "Leadership"
+      ],
+      "type": "Civic service",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "Town of Liberty: June 6, 2022 appointment minutes, page 14",
+          "url": "https://www.townoflibertyny.gov/wp-content/uploads/2022/06/060622_minutes.pdf#page=14"
+        },
+        {
+          "title": "Town of Liberty: Zoning Board of Appeals responsibilities",
+          "url": "https://ecode360.com/16119155"
+        }
+      ],
+      "media": [
+        {
+          "id": "liberty-original-zoning-map-2018-context",
+          "kind": "document",
+          "url": "https://www.townofliberty.org/wp-content/uploads/2018/07/ZONING-MAP-PROPOSED.pdf",
+          "title": "Explore the town's 2018 proposed zoning map",
+          "caption": "Geographic context for local zoning work: a 2018 proposed zoning map published by the Town of Liberty and prepared by Sullivan County Real Property Tax Services."
         }
       ]
     },
@@ -2040,6 +2267,55 @@ window.CAREER_DATA = {
       ]
     },
     {
+      "id": "dlight-production-release-2020",
+      "date": "2020-06-23",
+      "datePrecision": "day",
+      "dateLabel": "June 23, 2020",
+      "title": "Helped publish a global record of changing nighttime lights",
+      "summary": "Helped bring the dLIGHT dataset into public use through SEDAC. It combines satellite observations to visualize relative changes in nighttime brightness across 1992, 2002 and 2013, using the spatial detail of a 2015 VIIRS composite.",
+      "role": "Guided the data-publication work and contributed to the documentation with Christopher Small and Mairead Milan.",
+      "themes": [
+        "Population & data",
+        "Open science"
+      ],
+      "type": "Data product",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "NASA: VIIRS Plus DMSP Change in Lights",
+          "url": "https://catalog.data.gov/dataset/viirs-plus-dmsp-change-in-lights-viirsdmsp-dlight"
+        },
+        {
+          "title": "dLIGHT: dataset citation",
+          "url": "https://doi.org/10.7927/9ryj-6467"
+        }
+      ],
+      "media": [
+        {
+          "id": "dlight-original-color-key-2020",
+          "kind": "image",
+          "src": "assets/media/dlight-original-color-key-2020.webp",
+          "alt": "An original three-dimensional color key assigns blue to 1992, green to 2002 and red to 2013 nighttime brightness.",
+          "caption": "The original dLIGHT color key explains how three observation years combine to show changes in nighttime brightness. The dataset supports qualitative comparison of change.",
+          "credit": "Christopher Small and CIESIN, Columbia University / NASA SEDAC, 2020. CC BY 4.0.",
+          "sourceUrl": "https://gkhub.earthobservations.org/records/apf8a-3br32/files/documentation.pdf?download=1",
+          "sourceTitle": "dLIGHT documentation: original three-date color key",
+          "width": 645,
+          "height": 595,
+          "rights": "cc_by",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "id": "dlight-original-illustrated-documentation-2020",
+          "kind": "document",
+          "url": "https://gkhub.earthobservations.org/records/apf8a-3br32/files/documentation.pdf?download=1#page=4",
+          "title": "Explore the original nighttime-lights maps",
+          "caption": "The original guide includes a Niger Delta map and explains the color key, methods and limits of the dataset."
+        }
+      ]
+    },
+    {
       "id": "ny-climaid-cmip6-project-2020",
       "date": "2020-05",
       "datePrecision": "range",
@@ -2136,6 +2412,50 @@ window.CAREER_DATA = {
           "width": 1024,
           "height": 512,
           "rights": "institutional_archive_approved"
+        }
+      ]
+    },
+    {
+      "id": "worldbank-offgrid-report-2020",
+      "date": "2020",
+      "datePrecision": "year",
+      "dateLabel": "2020",
+      "title": "Contributed to a World Bank report on hard-to-reach populations",
+      "summary": "Contributed to the final report Estimating and Mapping Populations in Off-Grid and Hard-to-Reach Places. The project combined population estimates, mapping tools and locally contributed information to help identify small, remote communities in six West African countries.",
+      "role": "Provided inputs to the CIESIN report prepared by Sylwia Trzaska and Greg Yetman.",
+      "themes": [
+        "Population & data",
+        "Open science"
+      ],
+      "type": "Report",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "World Bank: estimating and mapping populations in off-grid places",
+          "url": "https://www.worldbank.org/en/data/statistical-capacity-building/data-innovation-fund/estimating-and-mapping-populations-in-off-grid-places"
+        }
+      ],
+      "media": [
+        {
+          "id": "worldbank-original-population-model-correlations-2020",
+          "kind": "image",
+          "src": "assets/media/worldbank-original-population-model-correlations-2020.webp",
+          "alt": "An original correlation matrix compares population and environmental variables considered in the project's population model.",
+          "caption": "The report's original correlation matrix shows relationships among population and environmental variables considered for its remote-village population model. Figure 10 from the final report.",
+          "credit": "Sylwia Trzaska and Greg Yetman, with inputs from Kytt MacManus / CIESIN, Columbia University, 2020.",
+          "sourceUrl": "https://web.archive.org/web/20240702013429id_/https://pubdocs.worldbank.org/en/571641591367781333/12-2020-04-20-CIESIN-Final-Report-March2020-v2.pdf#page=32",
+          "sourceTitle": "World Bank project report: original model correlation figure",
+          "width": 705,
+          "height": 631,
+          "rights": "institutional_archive_approved"
+        },
+        {
+          "id": "worldbank-offgrid-illustrated-report-2020",
+          "kind": "document",
+          "url": "https://web.archive.org/web/20240702013429id_/https://pubdocs.worldbank.org/en/571641591367781333/12-2020-04-20-CIESIN-Final-Report-March2020-v2.pdf#page=9",
+          "title": "Explore the original illustrated project report",
+          "caption": "The archived final report illustrates the mapping workflow and MAHRV portal for remote communities in West Africa. Its cover is dated March 2020."
         }
       ]
     },
@@ -2794,6 +3114,55 @@ window.CAREER_DATA = {
       ]
     },
     {
+      "id": "usgrids-2010-release-2017",
+      "date": "2017-05-26",
+      "datePrecision": "day",
+      "dateLabel": "May 26, 2017",
+      "title": "Helped publish 2010 U.S. census grids",
+      "summary": "Helped the CIESIN team make 2010 U.S. census data available as consistent population, household and housing grids at roughly one-kilometre resolution, and publish web mapping services for the collection.",
+      "role": "Contributed to documentation and release work, including mapping services, with CIESIN's U.S. Census Grids team.",
+      "themes": [
+        "Population & data",
+        "Open science"
+      ],
+      "type": "Data release",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "U.S. Census Grids (Summary File 1), 2010: original dataset",
+          "url": "https://doi.org/10.7927/H40Z716C"
+        },
+        {
+          "title": "SEDACMaps: original U.S. Census Grids release map",
+          "url": "https://www.flickr.com/photos/54545503@N04/35051746311/"
+        }
+      ],
+      "media": [
+        {
+          "id": "usgrids2010-owner-occupied-original-2017",
+          "kind": "image",
+          "src": "assets/media/usgrids2010-owner-occupied-original-2017.webp",
+          "alt": "Original U.S. Census Grids map shows the percentage of owner-occupied housing units across the United States, with insets for Alaska, Hawaii and Puerto Rico.",
+          "caption": "An original map from the 2017 release shows owner-occupied housing units as a share of housing units in 2010, using a consistent grid of about one square kilometre.",
+          "credit": "CIESIN, Columbia University / NASA SEDAC, 2017. Copyright 2017, The Trustees of Columbia University in the City of New York. CC BY 4.0.",
+          "sourceUrl": "https://www.flickr.com/photos/54545503@N04/35051746311/",
+          "sourceTitle": "Summary File 1, 2010: Owner-Occupied Housing Units (%)",
+          "width": 1024,
+          "height": 809,
+          "rights": "cc_by",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "id": "usgrids2010-original-publisher-map-2017",
+          "kind": "gallery",
+          "url": "https://www.flickr.com/photos/54545503@N04/35051746311/",
+          "title": "Explore the original U.S. Census Grids release map",
+          "caption": "SEDAC's original map illustrates the collection's consistent grid and housing variables."
+        }
+      ]
+    },
+    {
       "id": "gfgs-task-force-2017",
       "date": "2017",
       "datePrecision": "year",
@@ -2838,6 +3207,44 @@ window.CAREER_DATA = {
           "width": 1440,
           "height": 1080,
           "rights": "institutional_archive_approved"
+        }
+      ]
+    },
+    {
+      "id": "socinfo-census-methods-contribution-2016",
+      "date": "2016-11-14",
+      "datePrecision": "day",
+      "dateLabel": "November 14, 2016",
+      "title": "Coauthored research on changing census methods",
+      "summary": "Examined how online responses, administrative records and mobile-phone or social-media data could affect census-based global population grids. The coauthored contribution was part of a SocInfo workshop connecting demographers and data scientists.",
+      "role": "Coauthor with Susana B. Adamo.",
+      "themes": [
+        "Population & data",
+        "Open science"
+      ],
+      "type": "Conference contribution",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "IUSSP: report from the completed workshop",
+          "url": "https://iussp.org/en/web-social-media-and-cellphone-data-demographic-research-socinfo-2016"
+        }
+      ],
+      "media": [
+        {
+          "id": "socinfo-census-challenges-original-2016",
+          "kind": "image",
+          "src": "assets/media/socinfo-census-challenges-original-2016.webp",
+          "alt": "A U.S. Census Bureau diagram groups eight census challenges, including changing technology, population mobility, response rates and complex living arrangements.",
+          "caption": "A U.S. Census Bureau diagram of census challenges, reproduced in the coauthored SocInfo paper, frames its discussion of changing census methods.",
+          "credit": "U.S. Census Bureau, 2015. Figure 4, 2020 Census Environment. Reproduced in the Adamo-MacManus workshop paper.",
+          "sourceUrl": "https://www.census.gov/programs-surveys/decennial-census/decade/2020/planning-management/plan/memo-series/2020-memo-2015_02.html",
+          "sourceTitle": "U.S. Census Bureau: 2020 Census Environment",
+          "width": 663,
+          "height": 629,
+          "rights": "public_domain",
+          "licenseUrl": "https://www.copyright.gov/title17/92chap1.html#105"
         }
       ]
     },
@@ -3087,6 +3494,50 @@ window.CAREER_DATA = {
           "width": 561,
           "height": 443,
           "rights": "institutional_archive_approved"
+        }
+      ]
+    },
+    {
+      "id": "efgs-sex-population-contribution-2015",
+      "date": "2015-11-10",
+      "datePrecision": "day",
+      "dateLabel": "November 10, 2015",
+      "title": "Coauthored a presentation on global population maps by sex",
+      "summary": "Coauthored an EFGS conference presentation explaining how census data could become global population grids by sex. The presentation covered the data, mapping workflow and limitations of the preliminary GPW results.",
+      "role": "Coauthor with Erin Doxsey-Whitfield and Susana B. Adamo; Doxsey-Whitfield presented the work in Vienna.",
+      "themes": [
+        "Population & data",
+        "Open science"
+      ],
+      "type": "Presentation",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "EFGS 2015: official conference programme and presentation",
+          "url": "https://www.efgs.info/conferences/efgs/2015-vienna/"
+        }
+      ],
+      "media": [
+        {
+          "id": "efgs-original-female-population-map-2015",
+          "kind": "image",
+          "src": "assets/media/efgs-original-female-population-map-2015.webp",
+          "alt": "An original GPW map shows estimated female population density worldwide, with darker red indicating higher density.",
+          "caption": "Preliminary estimates of female population density in 2010, shown in the coauthored November 2015 presentation. These were preliminary results, presented by Erin Doxsey-Whitfield.",
+          "credit": "Erin Doxsey-Whitfield, Susana B. Adamo and Kytt MacManus / CIESIN, Columbia University, 2015.",
+          "sourceUrl": "https://www.efgs.info/wp-content/uploads/conferences/efgs/2015/Conference_EFGS2015_1010_1_3_doxsey-whitfieldPresentation.pptx",
+          "sourceTitle": "EFGS 2015: original preliminary GPW female-population map",
+          "width": 2934,
+          "height": 1655,
+          "rights": "institutional_archive_approved"
+        },
+        {
+          "id": "efgs-original-male-female-slides-2015",
+          "kind": "slides",
+          "url": "https://www.efgs.info/wp-content/uploads/conferences/efgs/2015/Conference_EFGS2015_1010_1_3_doxsey-whitfieldPresentation.pptx",
+          "title": "Download the original slides (PowerPoint, 7.7 MB)",
+          "caption": "The original PowerPoint includes the mapping workflow, preliminary population grids by sex and examples of census-data quality. Coauthored by Erin Doxsey-Whitfield, Susana B. Adamo and Kytt MacManus; presented by Doxsey-Whitfield."
         }
       ]
     },
@@ -3582,6 +4033,63 @@ window.CAREER_DATA = {
           "width": 2400,
           "height": 1920,
           "rights": "institutional_archive_approved"
+        }
+      ]
+    },
+    {
+      "id": "mastering-hudson-article-2010",
+      "date": "2010-04",
+      "datePrecision": "month",
+      "dateLabel": "April 2010",
+      "title": "Coauthored a guide to using Hudson River maps in the classroom",
+      "summary": "Published Mastering the Hudson with Mark Becker in New York State's GIS newsletter. The article showed how teachers could use the Hudson River Watershed Mapper to explore stream conditions, water-pollution records and environmental data near their schools.",
+      "role": "Coauthor with Mark Becker.",
+      "themes": [
+        "Teaching",
+        "Population & data"
+      ],
+      "type": "Publication",
+      "status": "completed",
+      "featured": false,
+      "sources": [
+        {
+          "title": "New York State GIS Technology News, Winter 2009-2010, pages 6-7",
+          "url": "https://web.archive.org/web/20101220175418id_/http://www.nysgis.state.ny.us/outreach/gist/documents/win09.pdf#page=6"
+        }
+      ],
+      "media": [
+        {
+          "id": "hudson-mapper-usgs-gauge-original-2010",
+          "kind": "image",
+          "src": "assets/media/hudson-mapper-usgs-gauge-original-2010.webp",
+          "alt": "The Hudson River Watershed Mapper links a stream-gauge location near Carmel, New York, to a USGS chart of water-level observations.",
+          "caption": "The mapper connects a Hudson Valley stream-gauge location to USGS water-level observations. Original screenshot published with the 2010 article.",
+          "credit": "Mark Becker and Kytt MacManus / CIESIN, Columbia University, and Hudson River Watershed Mapper partners. USGS observations.",
+          "sourceUrl": "https://web.archive.org/web/20101220175418id_/http://www.nysgis.state.ny.us/outreach/gist/documents/win09.pdf#page=7",
+          "sourceTitle": "Mastering the Hudson: original mapper screenshot",
+          "width": 1052,
+          "height": 756,
+          "rights": "institutional_archive_approved"
+        },
+        {
+          "id": "hudson-mapper-overview-original-2010",
+          "kind": "image",
+          "src": "assets/media/hudson-mapper-overview-original-2010.webp",
+          "alt": "Original Hudson River Watershed Mapper interface shows the watershed across New York and neighboring states and a menu of environmental data layers.",
+          "caption": "The original watershed interface, published in Mastering the Hudson, brought environmental layers and sensor networks into one map.",
+          "credit": "Mark Becker and Kytt MacManus / CIESIN, Columbia University, and Hudson River Watershed Mapper partners.",
+          "sourceUrl": "https://web.archive.org/web/20101220175418id_/http://www.nysgis.state.ny.us/outreach/gist/documents/win09.pdf#page=6",
+          "sourceTitle": "Mastering the Hudson: original watershed interface",
+          "width": 1052,
+          "height": 729,
+          "rights": "institutional_archive_approved"
+        },
+        {
+          "id": "mastering-hudson-original-article-2010",
+          "kind": "document",
+          "url": "https://web.archive.org/web/20101220175418id_/http://www.nysgis.state.ny.us/outreach/gist/documents/win09.pdf#page=6",
+          "title": "Read the illustrated Hudson River classroom guide",
+          "caption": "The original two-page article includes mapper screenshots and exercises using stream observations and environmental records."
         }
       ]
     },
