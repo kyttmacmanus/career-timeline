@@ -16,7 +16,7 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content/milestones.json"
-ASSETS = ("style.css", "app.js", "milestones.js")
+ASSETS = ("style.css", "app.js", "milestones.js", "favicon.svg")
 LICENSE_NOTICES = ("assets/licenses/sedacr-MIT.txt",)
 PRIVATE_HOSTS = {"mail.google.com", "docs.google.com", "drive.google.com", "localhost", "127.0.0.1"}
 IMAGE_RIGHTS = {"institutional_archive_approved", "author_owned", "cc_by", "cc_by_sa", "public_domain", "permission_granted", "license_permits_reuse"}
@@ -97,15 +97,16 @@ def validate(data):
 def media_markup(item):
     e = html.escape
     parts = []
-    for index, media in enumerate(item.get("media", [])):
+    for index, media in sorted(enumerate(item.get("media", [])), key=lambda pair: pair[1]["kind"] != "image"):
         if media["kind"] == "image":
             rights = f' · <a href="{e(media["licenseUrl"], quote=True)}" rel="noopener">{e(media.get("rightsLabel") or "Reuse license")}</a>' if media.get("licenseUrl") else ' · ' + e(media["rightsLabel"]) if media.get("rightsLabel") else ''
             parts.append(f'''<figure class="milestone-image"><a class="media-preview" href="{e(media['src'], quote=True)}" data-image-open data-milestone-id="{e(item['id'])}" data-media-index="{index}" aria-label="Enlarge image: {e(media['alt'], quote=True)}"><img src="{e(media['src'], quote=True)}" alt="{e(media['alt'], quote=True)}" width="{media['width']}" height="{media['height']}" loading="lazy" decoding="async"><span class="media-enlarge" aria-hidden="true">Enlarge ↗</span></a><figcaption><span class="media-caption">{e(media['caption'])}</span><span class="media-credit">{e(media['credit'])}{rights}</span><a class="media-source" href="{e(media['sourceUrl'], quote=True)}" rel="noopener">{e(media['sourceTitle'])} ↗</a></figcaption></figure>''')
         else:
-            label = {"video": "Watch video", "interactive": "Explore interactive", "slides": "View slides", "gallery": "View image gallery", "visual": "View original image", "document": "View document", "article": "Read the story"}[media["kind"]]
+            label = {"video": "Watch video", "interactive": "Explore online", "slides": "View slides", "gallery": "View image gallery", "visual": "View original image", "document": "View document", "article": "Read the story"}[media["kind"]]
             caption = f'<p>{e(media["caption"])}</p>' if media.get("caption") else ""
             parts.append(f'''<div class="milestone-media-link"><span class="media-kind">{label}</span><a href="{e(media['url'], quote=True)}" rel="noopener">{e(media['title'])} <span aria-hidden="true">↗</span></a>{caption}</div>''')
-    return '<div class="milestone-media">' + "".join(parts) + '</div>' if parts else ""
+    gallery = " has-gallery" if sum(m["kind"] == "image" for m in item.get("media", [])) >= 3 else ""
+    return '<div class="milestone-media' + gallery + '">' + "".join(parts) + '</div>' if parts else ""
 
 
 def base_card(item):
@@ -119,7 +120,9 @@ def base_card(item):
 
 
 def static_card(item):
-    return base_card(item).replace("</h3>", "</h3>" + media_markup(item), 1)
+    card = base_card(item)
+    summary = f'<p class="milestone-summary">{html.escape(item["summary"])}</p>'
+    return card.replace(summary, summary + media_markup(item), 1)
 
 
 def main():
@@ -133,6 +136,8 @@ def main():
     payload = json.dumps(data, ensure_ascii=False, indent=2).replace("</", "<\\/")
     (ROOT / "assets/milestones.js").write_text("window.CAREER_DATA = " + payload + ";\n", encoding="utf-8")
     page = (ROOT / "index.html").read_text(encoding="utf-8")
+    page = re.sub(r'(<dd id="milestone-total">).*?(</dd>)', lambda m: m[1] + str(summary["milestones"]) + m[2], page)
+    page = re.sub(r'(<dd id="year-span">).*?(</dd>)', lambda m: m[1] + summary["first_year"] + "\u2013" + summary["last_year"] + m[2], page)
     assert "<!-- TIMELINE_STATIC_START -->" in page and "<!-- TIMELINE_STATIC_END -->" in page
     cards = "\n".join(static_card(x) for x in data["milestones"])
     replacement = "<!-- TIMELINE_STATIC_START -->\n" + cards + "\n<!-- TIMELINE_STATIC_END -->"
