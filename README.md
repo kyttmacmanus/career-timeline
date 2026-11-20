@@ -39,7 +39,9 @@ Review the website at [kyttmacmanus.github.io/career-timeline](https://kyttmacma
 
 ## Provenance and scope
 
-Review date: November 15, 2026. The local email index ends October 24, 2025. A separate private review records whole-index screening, every curated event's selection/hold decision, public corroboration, and targeted connected-source checks. Screening is retrieval, not semantic validation of every message. This public selection is not a claim that every achievement in the archive has been independently verified.
+Review date: November 19, 2026. The local email index ends October 24, 2025; targeted connected-source checks include more recent work. A separate private review records whole-index screening, every curated event's selection/hold decision, public corroboration, and targeted connected-source checks. Screening is retrieval, not semantic validation of every message. This public selection is not a claim that every achievement in the archive has been independently verified.
+
+The language review describes Kytt's actions and responsibilities directly while preserving shared credit. Developing a method, coordinating a field campaign, teaching a course and contributing specialist advice are described according to the work actually documented. Funding decisions remain distinct from completed research, and team participation does not imply a successful flight or competition result.
 
 Raw email, private document URLs, personnel appraisals, internal source IDs, contact details and private evidence exports are excluded. No analytics, tracking, external scripts or third-party fonts are loaded.
 

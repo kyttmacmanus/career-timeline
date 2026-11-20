@@ -117,7 +117,7 @@ def base_card(item):
     links = "".join(f'<li><a href="{e(s["url"], quote=True)}" rel="noopener">{e(s["title"])} <span aria-hidden="true">↗</span></a></li>' for s in item["sources"])
     tags = "".join(f'<span class="theme-label">{e(t)}</span>' for t in item["themes"])
     context = f'<p class="milestone-context">{e(item["detail"])}</p>' if item.get("detail") else ""
-    return f'''<li class="timeline-item" id="{e(item['id'])}" style="--card-accent:{accent}"><article class="milestone" aria-labelledby="title-{e(item['id'])}"><div class="milestone-date-line"><time class="milestone-date" datetime="{e(item['date'])}">{e(item['dateLabel'])}</time><span class="milestone-kind">{e(item['type'])}</span></div><h3 id="title-{e(item['id'])}"><a href="#{e(item['id'])}">{e(item['title'])}</a></h3><p class="milestone-summary">{e(item['summary'])}</p><div class="milestone-themes">{tags}</div><details><summary>Contribution &amp; sources<span class="sr-only">: {e(item['title'])}</span></summary><p class="milestone-role"><strong>Kytt’s contribution</strong>{e(item['role'])}</p>{context}<p class="milestone-source-label">Explore this work</p><ul class="milestone-sources">{links}</ul><a class="permalink" href="#{e(item['id'])}">Link to this milestone <span aria-hidden="true">↗</span></a></details></article></li>'''
+    return f'''<li class="timeline-item" id="{e(item['id'])}" style="--card-accent:{accent}"><article class="milestone" aria-labelledby="title-{e(item['id'])}"><div class="milestone-date-line"><time class="milestone-date" datetime="{e(item['date'])}">{e(item['dateLabel'])}</time><span class="milestone-kind">{e(item['type'])}</span></div><h3 id="title-{e(item['id'])}"><a href="#{e(item['id'])}">{e(item['title'])}</a></h3><p class="milestone-summary">{e(item['summary'])}</p><div class="milestone-themes">{tags}</div><details><summary>Role &amp; project details<span class="sr-only">: {e(item['title'])}</span></summary><p class="milestone-role"><strong>Kytt’s role</strong>{e(item['role'])}</p>{context}<p class="milestone-source-label">Explore this work</p><ul class="milestone-sources">{links}</ul><a class="permalink" href="#{e(item['id'])}">Link to this milestone <span aria-hidden="true">↗</span></a></details></article></li>'''
 
 
 def static_card(item):
@@ -141,6 +141,11 @@ def main():
     page = metadata["apply_metadata"](page, data, ROOT)
     page = re.sub(r'(<dd id="milestone-total">).*?(</dd>)', lambda m: m[1] + str(summary["milestones"]) + m[2], page)
     page = re.sub(r'(<dd id="year-span">).*?(</dd>)', lambda m: m[1] + summary["first_year"] + "\u2013" + summary["last_year"] + m[2], page)
+    reviewed = date.fromisoformat(data["updated"])
+    updated_label = f"{reviewed:%B} {reviewed.day}, {reviewed.year}"
+    page, updated_count = re.subn(r'<time id="updated-date" datetime="[^"]+">.*?</time>',
+        lambda _: f'<time id="updated-date" datetime="{data["updated"]}">{updated_label}</time>', page)
+    assert updated_count == 1, "The visible update date must appear exactly once"
     assert "<!-- TIMELINE_STATIC_START -->" in page and "<!-- TIMELINE_STATIC_END -->" in page
     cards = "\n".join(static_card(x) for x in data["milestones"])
     replacement = "<!-- TIMELINE_STATIC_START -->\n" + cards + "\n<!-- TIMELINE_STATIC_END -->"
